@@ -7,7 +7,6 @@ import React from "react";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 
-import Header from 'src/common/Header/Header';
 import Footer from 'src/common/Footer/Footer';
 
 
@@ -22,7 +21,6 @@ export default function App({ Component, pageProps }: AppProps) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* 공통 헤더 */}
-      <Header />
       <Component {...pageProps} />
       <Footer />
     </>
