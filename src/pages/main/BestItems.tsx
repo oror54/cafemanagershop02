@@ -14,8 +14,6 @@ const BestItems = () => {
     const [isAutoplayActive, setAutoplayActive] = useState(true);
 
     useEffect(() => {
-        const playButton = document.querySelector(".bestPlay");
-
         const toggleAutoplay = () => {
             if (swiperRef.current) {
                 if (isAutoplayActive) {
@@ -28,12 +26,24 @@ const BestItems = () => {
             }
         };
 
-        playButton?.addEventListener("click", toggleAutoplay);
+        const playButton = document.querySelector(`.${styles.bestPlay}`);
 
-        return () => {
-            playButton?.removeEventListener("click", toggleAutoplay);
+        const handleClick = () => {
+            toggleAutoplay();
         };
-    }, [isAutoplayActive]);
+
+        if (playButton) {
+            playButton.addEventListener("click", handleClick);
+        }
+
+        // Cleanup function to remove the event listener when component unmounts
+        return () => {
+            if (playButton) {
+                playButton.removeEventListener("click", handleClick);
+            }
+        };
+    }, [isAutoplayActive]); // Dependency on `isAutoplayActive`
+
 
     return (
         <div className={styles.swiperContainer}>
@@ -42,8 +52,8 @@ const BestItems = () => {
                 spaceBetween={30}
                 slidesPerView={3.5}
                 navigation={{
-                    nextEl: ".bestNext",
-                    prevEl: ".bestPrev",
+                    nextEl: `.${styles.bestNext}`,
+                    prevEl: `.${styles.bestPrev}`,
                 }}
                 pagination={{
                     el: ".bestPagination",
@@ -117,7 +127,7 @@ const BestItems = () => {
                         <button type="button" className={`${styles.left} ${styles.bestPrev}`}></button>
                         <button
                             type="button"
-                            className={`${styles.start} ${styles.bestPlay} ${isAutoplayActive ? '' : styles.toggleOn}`}
+                            className={`${styles.start} ${styles.bestPlay} ${isAutoplayActive ? '' : styles.on}`}
                         >
                             <i className={styles.pause}></i>
                             <i className={styles.start}></i>
