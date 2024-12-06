@@ -33,19 +33,19 @@
   font-weight: 700;
   letter-spacing: -0.75px;
   color: #f15a24;
-  font-family: "Paperlogy";
+  font-family: 'Paperlogy';
 }
 .bestItem .product .text .pName {
   font-size: 20px;
   letter-spacing: -0.75px;
   color: #000;
-  font-family: "Paperlogy";
+  font-family: 'Paperlogy';
 }
 .bestItem .product .text .pBrand {
   color: #555;
   font-size: 16px;
   letter-spacing: -0.75px;
-  font-family: "Paperlogy";
+  font-family: 'Paperlogy';
 }
 .bestItem .product .text .viewDetail {
   display: flex;
@@ -62,8 +62,7 @@
 .bestItem > .product .text .viewDetail .arrowRight {
   width: 24px;
   height: 24px;
-  background: url(/assets/images/main/section02/arrow-right-view.svg) no-repeat
-    50% 50%;
+  background: url($/assets/images/main/section02/arrow-right-view.svg) no-repeat 50% 50%;
   background-size: contain;
   filter: grayscale(1) brightness(0);
   transition: all 0.3s;
@@ -85,14 +84,14 @@
   padding: 50px 20px;
 }
 
-:global(.bestPagination) {
+.bestPagination {
   width: 100%;
   position: relative;
   height: 2px;
   background-color: #e5e5e5; /* 기본 바 색상 */
 }
 
-:global(.bestPagination .swiper-pagination-progressbar-fill) {
+.bestPagination .swiper-pagination-progressbar-fill {
   background-color: #f15a24; /* 진행 색상 */
   height: 2px;
   width: 100%; /* 기본적으로 너비를 100%로 설정 */
@@ -108,8 +107,7 @@
   width: 30px;
   height: 30px;
   display: block;
-  background: url(/assets/images/main/section02/Arrow-Left-slide.svg) no-repeat
-    50% 50%;
+  background: url(/assets/images/main/section02/Arrow-Left-slide.svg) no-repeat 50% 50%;
   background-size: contain;
   filter: grayscale(1) brightness(0);
   transition: all 0.3s;
@@ -121,8 +119,7 @@
   width: 30px;
   height: 30px;
   display: block;
-  background: url(/assets/images/main/section02/Arrow-Right-slide.svg) no-repeat
-    50% 50%;
+  background: url(/assets/images/main/section02/Arrow-Right-slide.svg) no-repeat 50% 50%;
   background-size: contain;
   filter: grayscale(1) brightness(0);
   transition: all 0.3s;
@@ -151,8 +148,7 @@
   display: block;
   width: 20px;
   height: 20px;
-  background: url($/assets/images/main/section02/stop-slide.svg) no-repeat 50%
-    50%;
+  background: url($/assets/images/main/section02/stop-slide.svg) no-repeat 50% 50%;
   background-size: contain;
   transition: all 0.3s;
 }
@@ -160,8 +156,7 @@
   display: block;
   width: 20px;
   height: 20px;
-  background: url($/assets/images/main/section02/start-icon.svg) no-repeat 50%
-    50%;
+  background: url($/assets/images/main/section02/start-icon.svg) no-repeat 50% 50%;
   background-size: contain;
   display: none;
   transition: all 0.3s;
