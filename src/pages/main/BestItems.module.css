@@ -20,19 +20,19 @@
 .bestPagination.swiper-pagination-progressbar .swiper-pagination-progressbar-fill { background-color: #f15a24 !important; /* 진행 색상 */
  height: 2px; width: 100%; /* 기본적으로 너비를 100%로 설정 */}
 
-.bestContr .contr { display: flex; align-items: center; justify-content: center; gap: 10px; } 
-.bestContr .contr .bestPrev { width: 30px; height: 30px; display: block; background: url(/assets/images/main/section02/Arrow-Left-slide.svg) no-repeat 50% 50%; background-size: contain; filter: grayscale(1) brightness(0); transition: all 0.3s; } 
-.bestContr .contr .bestPrev:hover { filter: grayscale(0) brightness(1); } 
-.bestContr .contr .bestNext { width: 30px; height: 30px; display: block; background: url(/assets/images/main/section02/Arrow-Right-slide.svg) no-repeat 50% 50%; background-size: contain; filter: grayscale(1) brightness(0); transition: all 0.3s; } 
-.bestContr .contr .bestNext:hover { filter: grayscale(0) brightness(1); } 
-.bestContr .contr .bestPlay { display: flex; flex-direction: row; justify-content: center; align-items: center; width: 30px; height: 30px; border-radius: 50%; border: 1px solid #ddd; background-color: #fff; position: relative; transition: all 0.3s; } 
-.bestContr .contr .bestPlay:hover { background-color: #ff6e3a; border-color: #ff6e3a; } 
-.bestContr .contr .bestPlay i.pause { display: block; width: 20px; height: 20px; background: url(/assets/images/main/section02/stop-slide.svg) no-repeat 50% 50%; background-size: contain; transition: all 0.3s; } 
-.bestContr .contr .bestPlay i.start { display: block; width: 20px; height: 20px; background: url(/assets/images/main/section02/start-icon.svg) no-repeat 50% 50%; background-size: contain; display: none; transition: all 0.3s; } 
-.bestContr .contr .bestPlay.on { background-color: #ff6e3a; border-color: #ff6e3a; } 
-.bestContr .contr .bestPlay.on i.start { display: block; } 
-.bestContr .contr .bestPlay.on i.pause { display: none; } 
+.contr { display: flex; align-items: center; justify-content: center; gap: 10px; } 
+.contr .bestPrev { width: 30px; height: 30px; display: block; background: url(/assets/images/main/section02/Arrow-Left-slide.svg) no-repeat 50% 50%; background-size: contain; filter: grayscale(1) brightness(0); transition: all 0.3s; } 
+.contr .bestPrev:hover { filter: grayscale(0) brightness(1); } 
+.contr .bestNext { width: 30px; height: 30px; display: block; background: url(/assets/images/main/section02/Arrow-Right-slide.svg) no-repeat 50% 50%; background-size: contain; filter: grayscale(1) brightness(0); transition: all 0.3s; } 
+.contr .bestNext:hover { filter: grayscale(0) brightness(1); } 
+.contr .bestPlay { display: flex; flex-direction: row; justify-content: center; align-items: center; width: 30px; height: 30px; border-radius: 50%; border: 1px solid #818181; background-color: #fff; position: relative; transition: all 0.3s; } 
+.contr .bestPlay:hover { background-color: #ff6e3a; border-color: #ff6e3a; } 
+.contr .bestPlay i.pause { display: block; width: 20px; height: 20px; background: url(/assets/images/main/section02/stop-slide.svg) no-repeat 50% 50%; background-size: contain; transition: all 0.3s; } 
+.contr .bestPlay i.start { display: block; width: 20px; height: 20px; background: url(/assets/images/main/section02/start-icon.svg) no-repeat 50% 50%; background-size: contain; display: none; transition: all 0.3s; } 
+.contr .bestPlay.on { background-color: #ff6e3a; border-color: #ff6e3a; } 
+.contr .bestPlay.on i.start { display: block; } 
+.contr .bestPlay.on i.pause { display: none; } 
 
 @media screen and (max-width: 800px){
- .bestContr .contr { display: none; } 
+.contr { display: none; } 
  }
