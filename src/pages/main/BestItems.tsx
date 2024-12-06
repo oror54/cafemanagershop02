@@ -3,7 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Swiper as SwiperType } from "swiper";
 import Image from "next/image";
 import { Navigation, Pagination, Autoplay } from "swiper/modules";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { allData } from "src/data/allData";
 
@@ -11,18 +11,19 @@ const bestItems = allData.filter(item => item.best);
 
 const BestItems = () => {
     const swiperRef = useRef<SwiperType | null>(null);
+    const [isAutoplayActive, setAutoplayActive] = useState(true);
 
     useEffect(() => {
         const playButton = document.querySelector(".bestPlay");
 
         const toggleAutoplay = () => {
             if (swiperRef.current) {
-                if (playButton?.classList.contains("on")) {
+                if (isAutoplayActive) {
                     swiperRef.current.autoplay.stop();
-                    playButton.classList.remove("on");
+                    setAutoplayActive(false);
                 } else {
                     swiperRef.current.autoplay.start();
-                    playButton?.classList.add("on");
+                    setAutoplayActive(true);
                 }
             }
         };
@@ -32,7 +33,7 @@ const BestItems = () => {
         return () => {
             playButton?.removeEventListener("click", toggleAutoplay);
         };
-    }, []);
+    }, [isAutoplayActive]);
 
     return (
         <div className={styles.swiperContainer}>
@@ -116,7 +117,7 @@ const BestItems = () => {
                         <button type="button" className={`${styles.left} ${styles.bestPrev}`}></button>
                         <button
                             type="button"
-                            className={`${styles.start} ${styles.bestPlay} ${styles.toggleOn}`}
+                            className={`${styles.start} ${styles.bestPlay} ${isAutoplayActive ? '' : styles.toggleOn}`}
                         >
                             <i className={styles.pause}></i>
                             <i className={styles.start}></i>
@@ -125,7 +126,7 @@ const BestItems = () => {
                     </div>
                 </div>
             </div>
-        </div >
+        </div>
     );
 };
 
