@@ -1,4 +1,4 @@
-import styles from "@/styles/main/section02/BestItems.module.css";
+import styles from "./BestItems.module.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Swiper as SwiperType } from "swiper";
 import Image from "next/image";
@@ -13,7 +13,7 @@ const BestItems = () => {
     const swiperRef = useRef<SwiperType | null>(null);
 
     useEffect(() => {
-        const playButton = document.querySelector(".best-play");
+        const playButton = document.querySelector(".bestPlay");
 
         const toggleAutoplay = () => {
             if (swiperRef.current) {
