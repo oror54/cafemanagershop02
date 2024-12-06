@@ -13,11 +13,11 @@
 .bestItem > .product .text .viewDetail .arrowRight { width: 24px; height: 24px; background: url(/assets/images/main/section02/arrow-right-view.svg) no-repeat 50% 50%; background-size: contain; filter: grayscale(1) brightness(0); transition: all 0.3s; } 
 .bestItem .product .text .viewDetail:hover span { color: #f15a24; font-weight: 600; } 
 .bestItem .product .text .viewDetail:hover .arrowRight { filter: grayscale(0) brightness(1); } 
-.bestContr { max-width: 1600px; margin: 0 auto; display: flex; align-items: center; justify-content: center; gap: 20px; padding: 50px 20px; } 
+.bestContr { max-width: 1600px; margin: 0 auto; display: flex; align-items: center; justify-content: center; gap: 20px; padding: 50px 20px; position: relative;} 
 
-.bestPagination { width: 100%; position: relative; height: 2px; background-color: #e5e5e5; /* 기본 바 색상 */}
+.bestPagination { width: 100%; position: relative!important; height: 2px; background-color: #e5e5e5; /* 기본 바 색상 */}
 
-.bestPagination .swiper-pagination-progressbar-fill { background-color: #f15a24; /* 진행 색상 */
+.bestPagination .swiper-pagination-progressbar-fill { background-color: #f15a24 !important; /* 진행 색상 */
  height: 2px; width: 100%; /* 기본적으로 너비를 100%로 설정 */}
 
 .bestContr .contr { display: flex; align-items: center; justify-content: center; gap: 10px; } 
