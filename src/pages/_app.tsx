@@ -3,6 +3,7 @@ import 'swiper/css/navigation'; // 네비게이션 스타일
 import 'swiper/css/pagination'; // 페이지네이션 스타일
 
 import "@/styles/globals.css";
+import "@/styles/main.scss"
 import React from "react";
 import type { AppProps } from "next/app";
 import Head from "next/head";
