@@ -3,6 +3,7 @@ import dairy01 from "$/assets/images/sub/fresh/dairy/item01_서울우유 신림5
 import dairy02 from "$/assets/images/sub/fresh/dairy/item02_서울우유 신림5동_연유.png";
 import others01 from "$/assets/images/sub/fresh/others/item01_빈커스텀컴퍼니_181라운지 더치커피.png";
 import othersDetaol01 from "$/assets/images/sub/fresh/milk/detail01.jpg";
+import otherNewBg01 from "$/assets/images/sub/fresh/others/item01_빈커스텀컴퍼니_181라운지 더치커피_newbg.jpg"
 import others02 from "$/assets/images/sub/fresh/others/item02_빈커스텀컴퍼니_181라운지 디카페인 더치커피.png";
 import others03 from "$/assets/images/sub/fresh/others/item03_GSHCOFFEE_예가체프콜드브루.png";
 import others04 from "$/assets/images/sub/fresh/others/item04_로스팅코리아_콜드브루 디카페인.png";
@@ -25,6 +26,8 @@ type dataType = {
   categoryKo: string;
   url: string;
   best: boolean,
+  new:boolean,
+  newItemBg:string | StaticImageData;
 };
 
 export const allData: dataType[] = [
@@ -40,6 +43,8 @@ export const allData: dataType[] = [
     categoryDetail: '우유',
     url: "",
     best: true,
+    new:false,
+    newItemBg: defaultImage,
   },
   {
     id: 1,
@@ -53,6 +58,8 @@ export const allData: dataType[] = [
     categoryDetail: '유제품',
     url: "",
     best: true,
+    new:false,
+    newItemBg: defaultImage,
   },
   {
     id: 2,
@@ -66,6 +73,8 @@ export const allData: dataType[] = [
     categoryDetail: '유제품',
     url: "",
     best: true,
+    new:false,
+    newItemBg: defaultImage,
   },
   {
     id: 3,
@@ -79,6 +88,8 @@ export const allData: dataType[] = [
     categoryDetail: '기타',
     url: "",
     best: true,
+    new:true,
+    newItemBg: otherNewBg01,
   },
   {
     id: 4,
@@ -92,6 +103,8 @@ export const allData: dataType[] = [
     categoryDetail: '기타',
     url: "",
     best: true,
+    new:true,
+    newItemBg: otherNewBg01,
   },
   {
     id: 5,
@@ -105,6 +118,8 @@ export const allData: dataType[] = [
     categoryDetail: '기타',
     url: "",
     best: true,
+    new:false,
+    newItemBg: defaultImage,
   },
   {
     id: 6,
@@ -118,6 +133,8 @@ export const allData: dataType[] = [
     categoryDetail: '기타',
     url: "",
     best: true,
+    new:false,
+    newItemBg: defaultImage,
   },
   {
     id: 7,
@@ -131,6 +148,8 @@ export const allData: dataType[] = [
     categoryDetail: '기타',
     url: "",
     best: true,
+    new:false,
+    newItemBg: defaultImage,
   },
   {
     id: 8,
@@ -144,6 +163,8 @@ export const allData: dataType[] = [
     categoryDetail: '기타',
     url: "",
     best: true,
+    new:false,
+    newItemBg: defaultImage,
   },
   {
     id: 9,
@@ -157,6 +178,8 @@ export const allData: dataType[] = [
     categoryDetail: '기타',
     url: "",
     best: true,
+    new:false,
+    newItemBg: defaultImage,
   },
 
 ];
