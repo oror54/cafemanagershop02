@@ -186,7 +186,7 @@
 .ptdInfo .infoTxt .viewDetail .arrowRight {
     width: 24px;
     height: 24px;
-    background: url($/assets/images/main/section04/arrow-right-view.svg) no-repeat 50% 50%;
+    background: url(/assets/images/main/section04/arrow-right-view.svg) no-repeat 50% 50%;
     background-size: contain;
     filter: grayscale(1) brightness(0);
     transition: all 0.3s;
