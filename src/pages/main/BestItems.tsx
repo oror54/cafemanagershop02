@@ -66,14 +66,14 @@ const BestItems = () => {
                 loop
                 modules={[Navigation, Pagination, Autoplay]}
                 breakpoints={{
+                    0: { // 추가: 0부터 시작하는 기본 설정
+                        slidesPerView: 1, // 모바일 기본 한 슬라이드
+                    },
+                    375: {
+                        slidesPerView: 1,
+                    },
                     475: {
-                        slidesPerView: 1.7,
-                    },
-                    601: {
-                        slidesPerView: 2.2,
-                    },
-                    701: {
-                        slidesPerView: 2.5,
+                        slidesPerView: 1.5,
                     },
                     800: {
                         slidesPerView: 1.7,
