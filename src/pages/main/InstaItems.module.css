@@ -64,7 +64,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: url($/assets/images/main/section06/instagram.svg) 50% 50%
+    background: url(/assets/images/main/section06/instagram.svg) 50% 50%
       no-repeat;
     background-size: contain;
     width: 30px;
@@ -96,7 +96,7 @@
   }
   .instaControls .instaPrev {
     display: block;
-    background: url($/assets/images/main/section06/arrow-left-big.svg) no-repeat
+    background: url(/assets/images/main/section06/arrow-left-big.svg) no-repeat
       50% 50%;
     background-size: contain;
     filter: grayscale(0.5) brightness(0.5);
@@ -105,7 +105,7 @@
   }
   .instaControls .instaNext {
     display: block;
-    background: url($/assets/images/main/section06/arrow-right-big.svg) no-repeat
+    background: url(/assets/images/main/section06/arrow-right-big.svg) no-repeat
       50% 50%;
     background-size: contain;
     filter: grayscale(0.5) brightness(0.5);
