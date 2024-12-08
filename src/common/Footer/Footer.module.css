@@ -21,3 +21,8 @@
  .footer .inner .ftCutomer { position: static; } 
  .footer .inner .ftCutomer .tell-box { align-items: flex-start; } 
  }
+
+ @media screen and (max-width: 425px){
+ .footer .inner .ftInfo .info { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; } 
+ .footer .inner .ftInfo .txt p {font-size: 12px;}
+ }

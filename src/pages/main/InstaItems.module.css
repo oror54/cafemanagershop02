@@ -1,0 +1,146 @@
+.wrapper {
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .instaSwiperContainer {
+    width: 100%;
+    z-index: 10;
+    overflow: hidden;
+  }
+  
+  .instaSwiperContainer .swiper {
+    max-width: 1400px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .instaSwiperContainer .swiper .swiper-wrapper {
+    display: flex;
+    min-width: auto;
+    flex-wrap: nowrap;
+  }
+  .instaItem {
+    padding: 10px;
+    width: 25%;
+    flex: none;
+  }
+  .instaItem .inner {
+    display: block;
+    position: relative;
+  }
+  .instaItem .inner .instaImg {
+    position: relative;
+    height: auto;
+  }
+  .instaItem .inner .instaImg img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .instaItem .inner .instaHov {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: #fff;
+    opacity: 0;
+    background: rgba(22, 22, 22, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity 0.5s, background 0.35s, transform 0.35s;
+    padding: 16px;
+    transform: rotate(-0.001deg);
+  }
+  .instaItem .inner:hover .instaHov {
+    opacity: 1;
+    background: rgba(22, 22, 22, 0.8);
+    transform: rotate(-0.001deg);
+  }
+  .instaItem .inner .instaHov .iconInsta {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: url($/assets/images/main/section06/instagram.svg) 50% 50%
+      no-repeat;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+  }
+  .instaItem .inner .instaHov .instaSub {
+    font-size: 14px;
+    color: #fff;
+    letter-spacing: -0.75px;
+    font-family: "Paperlogy";
+  }
+  .instaControls {
+    display: flex;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+  }
+  .instaControls .control {
+    opacity: 0.3;
+    transition: opacity 0.25s;
+    width: 80px;
+    height: 80px;
+  }
+  .instaControls .control:hover {
+    opacity: 1;
+  }
+  .instaControls .instaPrev {
+    display: block;
+    background: url($/assets/images/main/section06/arrow-left-big.svg) no-repeat
+      50% 50%;
+    background-size: contain;
+    filter: grayscale(0.5) brightness(0.5);
+    transition: all 0.3s;
+    left: 0;
+  }
+  .instaControls .instaNext {
+    display: block;
+    background: url($/assets/images/main/section06/arrow-right-big.svg) no-repeat
+      50% 50%;
+    background-size: contain;
+    filter: grayscale(0.5) brightness(0.5);
+    transition: all 0.3s;
+    right: 0;
+  }
+  
+  @media screen and (max-width: 1500px) {
+    .instaControls {
+      display: none;
+    }
+  }
+  @media screen and (max-width: 1280px) {
+    .instaSwiperContainer .swiper .swiper-wrapper {
+      min-width: 100%;
+      flex-wrap: wrap;
+    }
+    .instaitems {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .instaItem {
+      width: 25%;
+      flex: 0 1 auto;
+    }
+  }
+  
+  @media screen and (max-width: 800px) {
+    .instaItem {
+      width: 50%;
+    }
+    .instaitems .instaItem .inner .instaHov .instaSub {
+      font-size: 12px;
+    }
+  }
+  
