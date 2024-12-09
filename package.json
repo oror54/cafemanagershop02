@@ -14,7 +14,6 @@
     "next": "15.0.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "sass": "^1.82.0",
     "sharp": "^0.33.5",
     "swiper": "^11.1.15"
   },
@@ -26,6 +25,8 @@
     "eslint-config-next": "15.0.4",
     "eslint-config-prettier": "^9.1.0",
     "prettier": "^3.4.2",
+    "sass": "^1.82.0",
+    "sass-loader": "^16.0.4",
     "typescript": "^5",
     "webpack": "^5.97.1",
     "webpack-cli": "^5.1.4"
