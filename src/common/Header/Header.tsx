@@ -34,6 +34,23 @@ export default function Header() {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
 
+    // 페이지 이동 시 모바일 메뉴를 닫는 이벤트 리스너 추가
+    useEffect(() => {
+        const handleRouteChange = () => {
+            if (isMobileMenuOpen) {
+                setIsMobileMenuOpen(false); // 메뉴 닫기
+            }
+        };
+
+        router.events.on("routeChangeComplete", handleRouteChange);
+
+        // 이벤트 리스너 정리
+        return () => {
+            router.events.off("routeChangeComplete", handleRouteChange);
+        };
+    }, [isMobileMenuOpen, router.events]);
+
+
     const toggleMobileMenu = () => {
         setIsMobileMenuOpen((prev) => !prev);
     };
