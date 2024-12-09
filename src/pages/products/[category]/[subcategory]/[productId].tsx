@@ -52,7 +52,6 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
                     <Image
                         src={product.description}
                         alt={product.name}
-                        width={1000}
                     />
                 </div>
             </section>

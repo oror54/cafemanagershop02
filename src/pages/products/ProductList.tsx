@@ -14,7 +14,7 @@ const ProductList: React.FC<ProductListProps> = ({ products }) => {
             {products.length > 0 ? (
                 products.map((product) => <ProductItem key={product.id} product={product} />)
             ) : (
-                <p>No products found</p>
+                <div className={styles.notYet}><p>제품이 준비중 입니다.</p></div>
             )}
         </section>
     );

@@ -9,7 +9,11 @@ interface ProductItemProps {
     product: Product;
 }
 
+
 const ProductItem: React.FC<ProductItemProps> = ({ product }) => {
+    if (!product) {
+        return <div className={styles.notYet}><p>제품이 준비중 입니다.</p></div>;
+    }
     return (
         <Link
             href={`/products/${product.category}/${product.subCategory}/${product.id}`}
@@ -20,8 +24,6 @@ const ProductItem: React.FC<ProductItemProps> = ({ product }) => {
                 <Image
                     src={product.imageUrl}
                     alt={product.name}
-                    width={300}
-                    height={300}
                 />
             </div>
             <div className={styles.productDetails}>
