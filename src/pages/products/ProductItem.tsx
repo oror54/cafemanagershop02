@@ -24,6 +24,8 @@ const ProductItem: React.FC<ProductItemProps> = ({ product }) => {
                 <Image
                     src={product.imageUrl}
                     alt={product.name}
+                    width={300}
+                    height={300}
                 />
             </div>
             <div className={styles.productDetails}>

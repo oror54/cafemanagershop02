@@ -1,22 +1,23 @@
-// components/ProductList.tsx
 import React from "react";
-import { Product } from "@/data/Product.types";  // Import the Product type
 import ProductItem from "./ProductItem";
-import styles from "./ProductPage.module.css";// Import the ProductItem component
+import { Product } from "@/data/Product.types";
+import styles from "./ProductPage.module.css";
 
 interface ProductListProps {
-    products: Product[];
+    products: Product[] | undefined; // Optional products array
 }
 
-const ProductList: React.FC<ProductListProps> = ({ products }) => {
+const ProductList: React.FC<ProductListProps> = ({ products = [] }) => {
+    if (!products || products.length === 0) {
+        return <div className={styles.notYet}><p>제품이 준비중 입니다.</p></div>;
+    }
+
     return (
-        <section className={styles.productList}>
-            {products.length > 0 ? (
-                products.map((product) => <ProductItem key={product.id} product={product} />)
-            ) : (
-                <div className={styles.notYet}><p>제품이 준비중 입니다.</p></div>
-            )}
-        </section>
+        <div>
+            {products.map((product) => (
+                <ProductItem key={product.id} product={product} />
+            ))}
+        </div>
     );
 };
 
