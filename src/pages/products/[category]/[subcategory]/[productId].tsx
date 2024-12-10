@@ -1,4 +1,3 @@
-import { useRouter } from "next/router";
 import { GetStaticPaths, GetStaticProps } from "next";
 import { allData } from "@/data/allData";
 import { Product } from "@/data/Product.types";
@@ -10,19 +9,12 @@ interface ProductDetailsProps {
 }
 
 const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
-    const router = useRouter();
-
-    if (router.isFallback) {
-        return <p>로딩중 입니다.</p>;
-    }
-
     if (!product) {
         return <p>제품을 찾지 못했습니다.</p>;
     }
 
     const handleBackToList = () => {
-        // Navigate back to the product list based on category and subcategory
-        router.push(`/products/${product.category}/${product.subCategory}`);
+        window.location.href = `/products/${product.category}/${product.subCategory}`;
     };
 
     return (
@@ -33,6 +25,8 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
                         <Image
                             src={product.imageUrl}
                             alt={product.name}
+                            width={500}
+                            height={500}
                         />
                     </div>
                     <div className={styles.TitleText}>
@@ -53,6 +47,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
                         src={product.description}
                         alt={product.name}
                         width={1000}
+                        height={500}
                     />
                 </div>
             </section>
@@ -76,30 +71,24 @@ export const getStaticPaths: GetStaticPaths = async () => {
 
     return {
         paths,
-        fallback: true, // Enable fallback for non-pre-rendered paths
+        fallback: false, // 모든 경로를 정적으로 생성
     };
 };
 
 export const getStaticProps: GetStaticProps = async (context) => {
     const { category, subcategory, productId } = context.params!;
 
-    console.log(category); // "fresh"
-    console.log(subcategory); // "dairy"
-    console.log(productId); // "123"
-
-
     const product = allData.find(
         (p) =>
             p.category === category &&
             p.subCategory === subcategory &&
-            p.id.toString() === productId // Convert productId to number
+            p.id.toString() === productId
     );
 
     return {
         props: {
-            product: product || null, // Pass product data or null
+            product: product || null, // 제품 정보가 없을 경우 null 반환
         },
-        revalidate: 10, // Revalidate data every 10 seconds
     };
 };
 
