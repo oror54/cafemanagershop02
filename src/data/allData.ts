@@ -20,6 +20,7 @@ import freshDetail07 from "$/assets/images/sub/fresh/others/detail07_솔룸커�
 import lightRoast01 from "$/assets/images/sub/beans/weak/item01_미임커피_특별한날.png"
 
 import mediumRoast01 from "$/assets/images/sub/beans/mid/item01_넥타_과테말라세리스.png"
+import mediumRoast02 from "$/assets/images/sub/beans/mid/item02_넥타_디카페인.png"
 
 import defaultImage from "$/default-image.png";
 import { StaticImageData } from "next/image";
@@ -223,12 +224,12 @@ export const allData: dataType[] = [
     newItemBg: defaultImage,
   },
   {
-    id: 11,
+    id: 12,
     category: "bean",
     subCategory: "mediumRoast",
-    name: "스페셜티 과테말라 세리스",
+    name: "스페셜티 디카페인",
     brand: "(주)넥타홀딩스",
-    imageUrl: mediumRoast01,
+    imageUrl: mediumRoast02,
     description: defaultImage,
     categoryKo: '원두',
     categoryDetail: '중배전',
