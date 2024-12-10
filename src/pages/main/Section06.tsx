@@ -12,10 +12,11 @@ export default function Section06() {
                 </div>
                 <h4>카페매니저의 소식을 확인해 보세요</h4>
                 <div className={styles.view}>
-                    <a href="https://www.instagram.com/cafemanager_official/" className={styles.viewDetail}>
+                    <button className={styles.viewDetail}
+                        onClick={() => window.open('https://www.instagram.com/cafemanager_official/', '_blank')}>
                         <span>SNS 보기</span>
                         <i className={styles.arrowRight}></i>
-                    </a>
+                    </button>
                 </div>
             </div>
             <InstaItems />

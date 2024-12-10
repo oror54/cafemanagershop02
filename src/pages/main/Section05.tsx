@@ -61,7 +61,7 @@ export default function Section05() {
                             </div>
                             <button
                                 className={`${styles.btn} ${styles.kakaoBtn}`}
-                                onClick={() => window.location.href = 'https://pf.kakao.com/_jcVsG'}
+                                onClick={() => window.open('https://pf.kakao.com/_jcVsG', '_blank')}
                             >
                                 <p>카카오톡 문의하기</p>
                             </button>
