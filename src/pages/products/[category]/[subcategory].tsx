@@ -18,7 +18,7 @@ export default function SubCategoryPage() {
 
   // 해당 카테고리 가져오기
   const currentCategory = menuItems.find((item) => item.realTitle === category);
-  if (!currentCategory) return <div>Category not found</div>; // 카테고리가 없으면 로드 처리
+  if (!currentCategory) return <div className={styles.notYet}><p>제품이 준비중 입니다.</p></div>; // 카테고리가 없으면 로드 처리
 
   const { imageUrl, subItems, realTitle, title } = currentCategory;
 

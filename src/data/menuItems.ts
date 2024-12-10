@@ -25,6 +25,11 @@ import cate04Sub02 from "$/assets/images/sub/cate04-sub02.svg";
 import cate04Sub03 from "$/assets/images/sub/cate04-sub03.svg";
 import cate04Sub04 from "$/assets/images/sub/cate04-sub04.svg";
 
+import cate05Sub01 from "$/assets/images/sub/cate05-sub01.svg";
+import cate05Sub02 from "$/assets/images/sub/cate05-sub02.svg";
+import cate05Sub03 from "$/assets/images/sub/cate05-sub03.svg";
+import cate05Sub04 from "$/assets/images/sub/cate05-sub04.svg";
+
 export const menuItems: MenuItemProps[] = [
   {
     title: "신선제품",
@@ -62,10 +67,10 @@ export const menuItems: MenuItemProps[] = [
     title: "식재료",
     realTitle: "ingredient",
     subItems: [
-      { name: "케익", realName: "cake", icon: cate03Sub01 },
-      { name: "생지", realName: "rawDough", icon: cate03Sub02 },
-      { name: "구움과자", realName: "bakedGoods", icon: cate03Sub03 },
-      { name: "기타", realName: "other", icon: cate03Sub04 },
+      { name: "시럽", realName: "cake", icon: cate04Sub01 },
+      { name: "소스", realName: "rawDough", icon: cate04Sub02 },
+      { name: "파우더", realName: "bakedGoods", icon: cate04Sub03 },
+      { name: "기타", realName: "other", icon: cate04Sub04 },
     ],
     imageUrl: category04,
   },
@@ -73,10 +78,10 @@ export const menuItems: MenuItemProps[] = [
     title: "부자재",
     realTitle: "subMaterial",
     subItems: [
-      { name: "일회용품", realName: "disposableItems", icon: cate04Sub01 },
-      { name: "식기", realName: "cutlery", icon: cate04Sub02 },
-      { name: "베이킹", realName: "baking", icon: cate04Sub03 },
-      { name: "기타", realName: "other", icon: cate04Sub04 },
+      { name: "일회용품", realName: "disposableItems", icon: cate05Sub01 },
+      { name: "식기", realName: "cutlery", icon: cate05Sub02 },
+      { name: "베이킹", realName: "baking", icon: cate05Sub03 },
+      { name: "기타", realName: "other", icon: cate05Sub04 },
     ],
     imageUrl: category05,
   },
