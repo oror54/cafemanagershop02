@@ -11,6 +11,8 @@ export interface Product {
     categoryDetail: string;
     description: string | StaticImageData;
     categoryKo: string;
+    best: boolean,
+    new:boolean,
     url: string;// Optional field
 }
 
