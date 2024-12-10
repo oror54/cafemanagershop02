@@ -1,4 +1,5 @@
 import { GetStaticPaths, GetStaticProps } from "next";
+import { useRouter } from "next/router"; // Next.js 라우터 import
 import { allData } from "@/data/allData";
 import { Product } from "@/data/Product.types";
 import Image from "next/image";
@@ -9,12 +10,14 @@ interface ProductDetailsProps {
 }
 
 const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
+    const router = useRouter(); // useRouter 훅 사용
+
     if (!product) {
         return <p>제품을 찾지 못했습니다.</p>;
     }
 
     const handleBackToList = () => {
-        window.location.href = `/products/${product.category}/${product.subCategory}`;
+        router.push(`/products/${product.category}/${product.subCategory}`); // useRouter로 페이지 이동
     };
 
     return (
