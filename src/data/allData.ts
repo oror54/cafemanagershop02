@@ -11,6 +11,16 @@ import fresh05 from "$/assets/images/sub/fresh/others/item05_로스팅코리아_
 import fresh06 from "$/assets/images/sub/fresh/others/item06_솔룸커피로스터스_솔룸다크콜드브루원액.png";
 import fresh07 from "$/assets/images/sub/fresh/others/item07_솔룸커피로스터스_콜롬비아디카페인콜드브루원액.png";
 
+import freshDetail02 from "$/assets/images/sub/fresh/others/detail02_빈커스텀컴퍼니_181라운지 디카페인 더치커피.jpg"
+import freshDetail04 from "$/assets/images/sub/fresh/others/detail04_로스팅코리아_콜드브루 디카페인.jpg"
+import freshDetail05 from "$/assets/images/sub/fresh/others/detail05_로스팅코리아_콜드브루 블렌딩.jpg"
+import freshDetail06 from "$/assets/images/sub/fresh/others/detail06_솔룸커피로스터스_솔룸다크골드브루원액.png"
+import freshDetail07 from "$/assets/images/sub/fresh/others/detail07_솔룸커피로스터스_콜롬비아디카페인골드브루원액.png"
+
+import lightRoast01 from "$/assets/images/sub/beans/weak/item01_미임커피_특별한날.png"
+
+import mediumRoast01 from "$/assets/images/sub/beans/mid/item01_넥타_과테말라세리스.png"
+
 import defaultImage from "$/default-image.png";
 import { StaticImageData } from "next/image";
 
@@ -98,7 +108,7 @@ export const allData: dataType[] = [
     name: "181라운지 디카페인 더치커피",
     brand: "(주)빈커스텀컴퍼니",
     imageUrl: fresh02,
-    description: defaultImage,
+    description: freshDetail02,
     categoryKo: '신선식품',
     categoryDetail: '기타',
     url: "",
@@ -128,7 +138,7 @@ export const allData: dataType[] = [
     name: "콜드브루 디카페인",
     brand: "로스팅코리아",
     imageUrl: fresh04,
-    description: defaultImage,
+    description: freshDetail04,
     categoryKo: '신선식품',
     categoryDetail: '기타',
     url: "",
@@ -143,7 +153,7 @@ export const allData: dataType[] = [
     name: "콜드브루 블렌딩",
     brand: "로스팅코리아",
     imageUrl: fresh05,
-    description: defaultImage,
+    description: freshDetail05,
     categoryKo: '신선식품',
     categoryDetail: '기타',
     url: "",
@@ -158,7 +168,7 @@ export const allData: dataType[] = [
     name: "솔룸다크콜드브루원액",
     brand: "솔룸커피로스터스",
     imageUrl: fresh06,
-    description: defaultImage,
+    description: freshDetail06,
     categoryKo: '신선식품',
     categoryDetail: '기타',
     url: "",
@@ -173,7 +183,7 @@ export const allData: dataType[] = [
     name: "콜롬비아디카페인콜드브루원액",
     brand: "솔룸커피로스터스",
     imageUrl: fresh07,
-    description: defaultImage,
+    description: freshDetail07,
     categoryKo: '신선식품',
     categoryDetail: '기타',
     url: "",
@@ -181,5 +191,35 @@ export const allData: dataType[] = [
     new:false,
     newItemBg: defaultImage,
   },
+  {
+    id: 10,
+    category: "bean",
+    subCategory: "lightRoast",
+    name: "특별한날 블랜딩",
+    brand: "미임커피로스터스",
+    imageUrl: lightRoast01,
+    description: defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '약배전',
+    url: "",
+    best: false,
+    new:false,
+    newItemBg: defaultImage,
+  },
 
+  {
+    id: 11,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "스페셜티 과테말라 세리스",
+    brand: "(주)넥타홀딩스",
+    imageUrl: mediumRoast01,
+    description: defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new:false,
+    newItemBg: defaultImage,
+  },
 ];
