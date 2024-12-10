@@ -22,8 +22,8 @@ const InstaItems = () => {
         window.addEventListener("resize", handleResize);
         return () => window.removeEventListener("resize", handleResize);
     }, []);
-    return(
-<div className={styles.wrapper}>
+    return (
+        <div className={styles.wrapper}>
             <div className={styles.instaSwiperContainer}>
                 {!isMobile ? (
                     <Swiper
@@ -60,7 +60,7 @@ const InstaItems = () => {
                         {instagramPosts.map((post) => (
                             <div key={post.id} className={styles.instaItem}>
                                 <a href={post.link} className={`${styles.inner} ${styles.hov}`}>
-                                <div className={styles.instaImg}>
+                                    <div className={styles.instaImg}>
                                         <Image
                                             src={post.imageSrc}
                                             alt={post.alt}
