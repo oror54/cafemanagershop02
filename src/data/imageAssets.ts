@@ -44,6 +44,7 @@ import mediumRoastDetail16 from "$/assets/images/sub/beans/mid/detail16_랑케_�
 
 import mediumRoast17 from "$/assets/images/sub/beans/mid/item17_GSH_C블랜딩.png"
 import mediumRoast18 from "$/assets/images/sub/beans/mid/item18_GSH_G블랜딩.png"
+import mediumRoastNewBg18 from "$/assets/images/sub/beans/mid/itemBack18_GSH_G블랜딩.png"
 import mediumRoast19 from "$/assets/images/sub/beans/mid/item19_GSH_H블랜딩.png"
 import mediumRoast20 from "$/assets/images/sub/beans/mid/item20_GSH_S블랜딩.png"
 import mediumRoast21 from "$/assets/images/sub/beans/mid/item21_GSH_슈가케인.png"
@@ -70,6 +71,7 @@ import mediumRoastDetail31 from "$/assets/images/sub/beans/mid/detail31_전광�
 import mediumRoast32 from "$/assets/images/sub/beans/mid/item32_커피가이_블랙가이.png"
 import mediumRoast33 from "$/assets/images/sub/beans/mid/item33_커피가이_스윗가이.png"
 import mediumRoast34 from "$/assets/images/sub/beans/mid/item34_커피기이_스타가이.png"
+import mediumRoastNewBg34 from "$/assets/images/sub/beans/mid/itemBack34_커피기이_스타가이.png"
 import mediumRoast35 from "$/assets/images/sub/beans/mid/item35_커피가이_조이가이.png"
 import mediumRoast36 from "$/assets/images/sub/beans/mid/item36_커피가이_커피가이.png"
 import mediumRoast37 from "$/assets/images/sub/beans/mid/item37_토브공작소_베이직블랜드.png"
@@ -100,6 +102,7 @@ import darkRoast14 from "$/assets/images/sub/beans/strong/item14_청휘와 커�
 import darkRoastDetail14 from "$/assets/images/sub/beans/strong/detail14_청휘와 커피공장_청휘디카페인.png"
 import darkRoast15 from "$/assets/images/sub/beans/strong/item15_청휘와 커피공장_청휘커피.png"
 import darkRoastDetail15 from "$/assets/images/sub/beans/strong/detail15_청휘와 커피공장_청휘커피.png"
+import darkRoastNewBg15 from "$/assets/images/sub/beans/strong/itemBack15_청휘와 커피공장_청휘커피.png"
 import darkRoast16 from "$/assets/images/sub/beans/strong/item16_토브공작소_딥브라운블랜드.png"
 
 
@@ -163,6 +166,7 @@ export const images = {
 
     mediumRoast17,
     mediumRoast18,
+    mediumRoastNewBg18,
     mediumRoast19,
     mediumRoast20,
     mediumRoast21,
@@ -190,6 +194,7 @@ export const images = {
     mediumRoast32,
     mediumRoast33,
     mediumRoast34,
+    mediumRoastNewBg34,
     mediumRoast35,
     mediumRoast36,
     mediumRoast37,
@@ -220,6 +225,7 @@ export const images = {
     darkRoastDetail14,
     darkRoast15,
     darkRoastDetail15,
+    darkRoastNewBg15,
     darkRoast16,
 
 

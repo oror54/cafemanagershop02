@@ -32,9 +32,9 @@
  }
 
 @media screen and (max-width: 1600px){
- .productList div { grid-template-columns: 1fr 1fr 1fr; } 
+ .productList { grid-template-columns: 1fr 1fr 1fr; } 
  }
 
-@media screen and (max-width: 1000px){
- .productList { grid-template-columns: repeat(auto-fill, minmax(100px, 1fr)); padding: 10px; gap: 10px; } 
+ @media screen and (max-width: 768px){
+ .productList { grid-template-columns: 1fr 1fr;padding: 10px; gap: 10px; } 
  }
