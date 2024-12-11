@@ -438,5 +438,455 @@ export const allData: dataType[] = [
     new: false,
     newItemBg: images.defaultImage,
   },
+  // 원두
+  //중배전
+  // (주)랑케 써니비치
+  {
+    id: 24,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "써니비치",
+    brand: "(주)랑케",
+    imageUrl: images.mediumRoast15,
+    description: images.mediumRoastDetail15,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // (주)랑케 써니비치
+  {
+    id: 25,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "킵고잉",
+    brand: "(주)랑케",
+    imageUrl: images.mediumRoast16,
+    description: images.mediumRoastDetail16,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // GSHCOFFEE  C블랜딩
+  {
+    id: 26,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "C블랜딩",
+    brand: "GSHCOFFEE",
+    imageUrl: images.mediumRoast17,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // GSHCOFFEE  G블랜딩
+  {
+    id: 27,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "G블랜딩",
+    brand: "GSHCOFFEE",
+    imageUrl: images.mediumRoast18,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // GSHCOFFEE  H블랜딩
+  {
+    id: 28,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "H블랜딩",
+    brand: "GSHCOFFEE",
+    imageUrl: images.mediumRoast19,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // GSHCOFFEE  S블랜딩
+  {
+    id: 29,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "S블랜딩",
+    brand: "GSHCOFFEE",
+    imageUrl: images.mediumRoast20,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // GSHCOFFEE  콜롬비아 슈가케인 디카페인
+  {
+    id: 30,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "콜롬비아 슈가케인 디카페인",
+    brand: "GSHCOFFEE",
+    imageUrl: images.mediumRoast21,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 디와이아이워크샵  Y Blend
+  {
+    id: 31,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "Y Blend",
+    brand: "디와이아이워크샵",
+    imageUrl: images.mediumRoast22,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 로스팅코리아  쉐이드트리 원두
+  {
+    id: 32,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "쉐이드트리",
+    brand: "로스팅코리아",
+    imageUrl: images.mediumRoast23,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 뤼미에르커피스탠드  오프블랜드
+  {
+    id: 33,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "오프블랜드",
+    brand: "뤼미에르커피스탠드",
+    imageUrl: images.mediumRoast24,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 미임커피  디카페인슈가케인
+  {
+    id: 34,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "디카페인슈가케인",
+    brand: "미임커피",
+    imageUrl: images.mediumRoast25,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 빈커스텀컴퍼니  오로라
+  {
+    id: 35,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "오로라",
+    brand: "빈커스텀컴퍼니",
+    imageUrl: images.mediumRoast26,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 솔룸커피로스터스  솔룸 브라운
+  {
+    id: 36,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "솔룸 브라운",
+    brand: "솔룸커피로스터스",
+    imageUrl: images.mediumRoast27,
+    description: images.mediumRoastDetail27,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 솔룸커피로스터스  솔룸다크
+  {
+    id: 37,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "솔룸다크",
+    brand: "솔룸커피로스터스",
+    imageUrl: images.mediumRoast28,
+    description: images.mediumRoastDetail28,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 솔룸커피로스터스  솔룸다크
+  {
+    id: 37,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "솔룸다크",
+    brand: "솔룸커피로스터스",
+    imageUrl: images.mediumRoast28,
+    description: images.mediumRoastDetail28,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 솔룸커피로스터스  솔룸브라이트
+  {
+    id: 38,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "솔룸브라이트",
+    brand: "솔룸커피로스터스",
+    imageUrl: images.mediumRoast29,
+    description: images.mediumRoastDetail29,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 솔룸커피로스터스  콜롬비아디카페인
+  {
+    id: 39,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "콜롬비아디카페인",
+    brand: "솔룸커피로스터스",
+    imageUrl: images.mediumRoast30,
+    description: images.mediumRoastDetail30,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 전광수커피  30초 블렌드
+  {
+    id: 40,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "30초 블렌드",
+    brand: "전광수커피",
+    imageUrl: images.mediumRoast31,
+    description: images.mediumRoastDetail31,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 커피가이 블랙가이
+  {
+    id: 41,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "블랙가이",
+    brand: "커피가이",
+    imageUrl: images.mediumRoast32,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 커피가이 스윗가이
+  {
+    id: 42,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "스윗가이",
+    brand: "커피가이",
+    imageUrl: images.mediumRoast33,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 커피가이 스타가이
+  {
+    id: 43,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "스타가이",
+    brand: "커피가이",
+    imageUrl: images.mediumRoast34,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 커피가이 조이가이
+  {
+    id: 44,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "조이가이",
+    brand: "커피가이",
+    imageUrl: images.mediumRoast35,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 커피가이 커피가이
+  {
+    id: 45,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "커피가이",
+    brand: "커피가이",
+    imageUrl: images.mediumRoast36,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 토브공작소 베이직블렌드원두
+  {
+    id: 46,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "베이직블렌드원두",
+    brand: "토브공작소",
+    imageUrl: images.mediumRoast37,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 토브공작소 오손도손블렌드
+  {
+    id: 47,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "오손도손블렌드",
+    brand: "토브공작소",
+    imageUrl: images.mediumRoast38,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
 
 ];
