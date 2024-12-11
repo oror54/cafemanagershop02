@@ -3,7 +3,7 @@
 .DetailTitle .TitleImage { width: 500px; height: 500px; display: flex; background-color: #FDFBF4; padding: 50px; } 
 .DetailTitle .TitleImage img { width: 100%; height: 100%; object-fit: cover; } 
 
-.TitleText { width: 500px; height: 500px; display: flex; background-color: #fff; padding: 50px; gap: 50px; } 
+.TitleText { width: 500px; height: 500px; display: flex; background-color: #fff; padding: 50px; gap: 50px; flex-direction: column;justify-content: space-between;} 
 .TextWrap { display: flex; flex-direction: column; align-items: flex-start; gap: 10px; } 
 .TitleText .CategoytyWrap { display: flex; flex-direction: row; align-items: center; gap: 10px; } 
 .TitleText .cate { color: #F15A24; text-align: center; font-family: Paperlogy; font-size: 20px; font-style: normal; font-weight: 700; line-height: 140%; /* 28px */
@@ -14,10 +14,21 @@ letter-spacing: -0.75px; }
 letter-spacing: -0.75px; } 
 .TitleText .brand { color: #727272; text-align: center; font-family: Paperlogy; font-size: 14px; font-style: normal; font-weight: 600; line-height: 140%; /* 28px */
 letter-spacing: -0.75px; } 
+.buttonWrap{width: 100%;display: flex;flex-direction: column;gap: 10px;align-items: center;}
+.buttonWrap .btn{padding: 16px;display: flex;font-size: 14px;border-radius: 50px;flex-direction: row;align-items: center;justify-content: center;gap: 10px;color: #fff;width: 200px; transition:  all .3s;}
+.buttonWrap .btn p{font-family: Paperlogy; letter-spacing: -.75px;}
+.buttonWrap .purchase{background-color: #000;}
+.buttonWrap .purchase:hover{background-color: #F15A24;}
+.buttonWrap .purchase p{color: #fff;font-size: 14px;}
+.buttonWrap .btn .logo{width: 16px;height: 16px; display: block;}
+.buttonWrap .btn .apple{background: url(/assets/images/main/apple_logo_m.svg) 50% 50% no-repeat; background-size: contain;}
+.buttonWrap .btn .google{background: url(/assets/images/main/google_logo_m.svg) 50% 50% no-repeat; background-size: contain;}
+.buttonWrap .kakao{background-color: #f9e000; font-weight: 600;}
+.buttonWrap .kakao p{color: #371c1d;font-size: 15px;}
 
 
-.Details{display:flex; padding: 30px 0; width: 100%;}
-.Details .description{max-width: 1000px; width: 100%; margin: 0 auto;}
+.Details{display:flex; padding: 100px 0 30px; width: 100%; border-top:  1px solid #efefef;}
+.Details .description{max-width: 800px; width: 100%; margin: 0 auto;}
 .Details .description img{width: 100%;height: auto; object-fit: contain;}
 .BackButtonSection { margin:50px 0; text-align: center; } 
 

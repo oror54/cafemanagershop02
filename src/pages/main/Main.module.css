@@ -9,8 +9,8 @@ main .tit .point span { color: #ff6e3a; font-family: 'Paperlogy'; font-size: 28p
 main .tit h4 { color: #000; font-family: 'Pretendard'; font-size: 24px; font-weight: 400; letter-spacing: -1px;  text-align: center;} 
 
 /* main -section01 */
-.section01 { height: 100vh; width: 100%; background: url(/assets/images/main/section01.jpg) 50% 50% no-repeat; background-size: cover; display: flex; align-items: center; min-height: 700px; } 
-.section01 > .wrap { max-width: 1600px; margin: 0 auto; } 
+.section01 { width: 100%; background: url(/assets/images/main/section01.jpg) 50% 50% no-repeat; background-size: cover; display: flex; align-items: center; min-height: 600px; height: 100%;} 
+.section01 > .wrap { max-width: 1000px; margin: 0 auto; } 
 .section01 .title { display: flex; flex-direction: column; align-items: flex-start; gap: 50px; } 
 .section01 .title h3 { color: #fff; font-family: 'GmarketSans'; font-size: 65px; font-style: normal; font-weight: 700; line-height: 100%; letter-spacing: -0.75px; } 
 .section01 .title p { color: #fff; font-family: 'Paperlogy' !important; font-size: 22px; font-weight: 500; line-height: 140%; letter-spacing: -0.75px; } 
