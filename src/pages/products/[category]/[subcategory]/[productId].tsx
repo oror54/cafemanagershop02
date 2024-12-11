@@ -47,7 +47,7 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
                         src={product.description}
                         alt={product.name}
                         width={1000}
-                        height={500}
+                        placeholder="empty"
                     />
                 </div>
             </section>
