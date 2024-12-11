@@ -44,13 +44,9 @@ import mediumRoastDetail16 from "$/assets/images/sub/beans/mid/detail16_랑케_�
 
 import mediumRoast17 from "$/assets/images/sub/beans/mid/item17_GSH_C블랜딩.png"
 import mediumRoast18 from "$/assets/images/sub/beans/mid/item18_GSH_G블랜딩.png"
-import mediumRoastDetail18 from "$/assets/images/sub/beans/mid/detail18_GSH_G블랜딩.jpg"
 import mediumRoast19 from "$/assets/images/sub/beans/mid/item19_GSH_H블랜딩.png"
-import mediumRoastDetail19 from "$/assets/images/sub/beans/mid/detail19_GSH_H블랜딩.jpg"
 import mediumRoast20 from "$/assets/images/sub/beans/mid/item20_GSH_S블랜딩.png"
-import mediumRoastDetail20 from "$/assets/images/sub/beans/mid/detail20_GSH_S블랜딩.jpg"
 import mediumRoast21 from "$/assets/images/sub/beans/mid/item21_GSH_슈가케인.png"
-import mediumRoastDetail21 from "$/assets/images/sub/beans/mid/detail21_GSH_콜롬비아.jpg"
 
 import mediumRoast22 from "$/assets/images/sub/beans/mid/item22_디와이아이워크샵_Y블랜드.png"
 import mediumRoast23 from "$/assets/images/sub/beans/mid/item23_로스팅코리아_쉐이드트리.png"
@@ -127,13 +123,9 @@ export const images = {
 
     mediumRoast17,
     mediumRoast18,
-    mediumRoastDetail18,
     mediumRoast19,
-    mediumRoastDetail19,
     mediumRoast20,
-    mediumRoastDetail20,
     mediumRoast21,
-    mediumRoastDetail21,
 
     mediumRoast22,
     mediumRoast23,
