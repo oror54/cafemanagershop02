@@ -1,18 +1,5 @@
-import milk01 from "$/assets/images/sub/fresh/milk/item01_서울우유신림5동_우유.png";
-import dairy01 from "$/assets/images/sub/fresh/dairy/item01_서울우유신림5동_생크림.png";
-import dairy02 from "$/assets/images/sub/fresh/dairy/item02_서울우유신림5동_연유.png";
-import others01 from "$/assets/images/sub/fresh/others/item01_빈커스텀컴퍼니_181라운지더치커피.png";
-import othersDetaol01 from "$/assets/images/sub/fresh/milk/detail01.jpg";
-import otherNewBg01 from "$/assets/images/sub/fresh/others/item01_빈커스텀컴퍼니_181라운지더치커피_newbg.jpg"
-import others02 from "$/assets/images/sub/fresh/others/item02_빈커스텀컴퍼니_181라운지디카페인더치커피.png";
-import others03 from "$/assets/images/sub/fresh/others/item03_GSHCOFFEE_예가체프콜드브루.png";
-import others04 from "$/assets/images/sub/fresh/others/item04_로스팅코리아_콜드브루디카페인.png";
-import others05 from "$/assets/images/sub/fresh/others/item05_로스팅코리아_콜드브루블렌딩.png";
-import others06 from "$/assets/images/sub/fresh/others/item06_솔룸커피로스터스_솔룸다크콜드브루원액.png";
-import others07 from "$/assets/images/sub/fresh/others/item07_솔룸커피로스터스_콜롬비아디카페인콜드브루원액.png";
-
-import defaultImage from "$/default-image.png";
 import { StaticImageData } from "next/image";
+import { images } from "./imageAssets";
 
 type dataType = {
   id: number;
@@ -37,14 +24,14 @@ export const allData: dataType[] = [
     subCategory: "milk",
     name: "서울 흰우유(1,000mL)",
     brand: "서울우유",
-    imageUrl: milk01,
-    description: defaultImage,
+    imageUrl: images.milk01,
+    description: images.defaultImage,
     categoryKo: '신선식품',
     categoryDetail: '우유',
     url: "",
     best: true,
     new: false,
-    newItemBg: defaultImage,
+    newItemBg: images.defaultImage,
   },
   {
     id: 1,
@@ -52,14 +39,14 @@ export const allData: dataType[] = [
     subCategory: "dairy",
     name: "신선한 우유로 만든 생크림",
     brand: "서울우유",
-    imageUrl: dairy01,
-    description: defaultImage,
+    imageUrl: images.dairy01,
+    description: images.defaultImage,
     categoryKo: '신선식품',
     categoryDetail: '유제품',
     url: "",
     best: true,
     new: false,
-    newItemBg: defaultImage,
+    newItemBg: images.defaultImage,
   },
   {
     id: 2,
@@ -67,14 +54,14 @@ export const allData: dataType[] = [
     subCategory: "dairy",
     name: "서울우유 연유",
     brand: "서울우유",
-    imageUrl: dairy02,
-    description: defaultImage,
+    imageUrl: images.dairy02,
+    description: images.defaultImage,
     categoryKo: '신선식품',
     categoryDetail: '유제품',
     url: "",
     best: true,
     new: false,
-    newItemBg: defaultImage,
+    newItemBg: images.defaultImage,
   },
   {
     id: 3,
@@ -82,14 +69,14 @@ export const allData: dataType[] = [
     subCategory: "other",
     name: "181라운지 더치커피",
     brand: "(주)빈커스텀컴퍼니",
-    imageUrl: others01,
-    description: othersDetaol01,
+    imageUrl: images.freshothers01,
+    description: images.freshothersDetail01,
     categoryKo: '신선식품',
     categoryDetail: '기타',
     url: "",
     best: true,
     new: true,
-    newItemBg: otherNewBg01,
+    newItemBg: images.freshotherNewBg01,
   },
   {
     id: 4,
@@ -97,14 +84,14 @@ export const allData: dataType[] = [
     subCategory: "other",
     name: "181라운지 디카페인 더치커피",
     brand: "(주)빈커스텀컴퍼니",
-    imageUrl: others02,
-    description: defaultImage,
+    imageUrl: images.freshothers02,
+    description: images.freshothersDetail02,
     categoryKo: '신선식품',
     categoryDetail: '기타',
     url: "",
     best: true,
     new: true,
-    newItemBg: otherNewBg01,
+    newItemBg: images.freshotherNewBg01,
   },
   {
     id: 5,
@@ -112,14 +99,14 @@ export const allData: dataType[] = [
     subCategory: "other",
     name: "예가체프콜드브루",
     brand: "GSHCOFFEE",
-    imageUrl: others03,
-    description: defaultImage,
+    imageUrl: images.freshothers03,
+    description: images.defaultImage,
     categoryKo: '신선식품',
     categoryDetail: '기타',
     url: "",
     best: true,
     new: false,
-    newItemBg: defaultImage,
+    newItemBg: images.defaultImage,
   },
   {
     id: 6,
@@ -127,14 +114,14 @@ export const allData: dataType[] = [
     subCategory: "other",
     name: "콜드브루 디카페인",
     brand: "로스팅코리아",
-    imageUrl: others04,
-    description: defaultImage,
+    imageUrl: images.freshothers04,
+    description: images.freshothersDetail04,
     categoryKo: '신선식품',
     categoryDetail: '기타',
     url: "",
     best: true,
     new: false,
-    newItemBg: defaultImage,
+    newItemBg: images.defaultImage,
   },
   {
     id: 7,
@@ -142,14 +129,14 @@ export const allData: dataType[] = [
     subCategory: "other",
     name: "콜드브루 블렌딩",
     brand: "로스팅코리아",
-    imageUrl: others05,
-    description: defaultImage,
+    imageUrl: images.freshothers05,
+    description: images.freshothersDetail05,
     categoryKo: '신선식품',
     categoryDetail: '기타',
     url: "",
     best: true,
     new: false,
-    newItemBg: defaultImage,
+    newItemBg: images.defaultImage,
   },
   {
     id: 8,
@@ -157,14 +144,14 @@ export const allData: dataType[] = [
     subCategory: "other",
     name: "솔룸다크콜드브루원액",
     brand: "솔룸커피로스터스",
-    imageUrl: others06,
-    description: defaultImage,
+    imageUrl: images.freshothers06,
+    description: images.freshothersDetail06,
     categoryKo: '신선식품',
     categoryDetail: '기타',
     url: "",
     best: true,
     new: false,
-    newItemBg: defaultImage,
+    newItemBg: images.defaultImage,
   },
   {
     id: 9,
@@ -172,14 +159,14 @@ export const allData: dataType[] = [
     subCategory: "other",
     name: "콜롬비아디카페인콜드브루원액",
     brand: "솔룸커피로스터스",
-    imageUrl: others07,
-    description: defaultImage,
+    imageUrl: images.freshothers07,
+    description: images.freshothersDetail07,
     categoryKo: '콜드브루',
     categoryDetail: '기타',
     url: "",
     best: true,
     new: false,
-    newItemBg: defaultImage,
+    newItemBg: images.defaultImage,
   },
 
 ];
