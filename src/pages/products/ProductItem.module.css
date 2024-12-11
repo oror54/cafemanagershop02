@@ -15,3 +15,9 @@
  .productDetails .name { font-size: 18px; } 
  .productDetails .brand { font-size: 12px; } 
  }
+
+@media screen and (max-width: 425px){
+ .productDetails .cate { font-size: 12px; } 
+ .productDetails .name { font-size: 14px; } 
+ .productDetails .brand { font-size: 12px; } 
+ }

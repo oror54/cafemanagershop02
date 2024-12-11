@@ -1,0 +1,43 @@
+.bestPagination.swiper-pagination-progressbar {
+  width: 100%;
+  position: relative !important;
+  height: 2px;
+  background-color: #e5e5e5; /* 기본 바 색상 */
+}
+.bestPagination.swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+  background-color: #f15a24 !important; /* 진행 색상 */
+  height: 2px;
+  width: 100%; /* 기본적으로 너비를 100%로 설정 */
+}
+
+.newPagination {
+  display: none;
+}
+@media screen and (max-width: 1280px) {
+  .newPagination {
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(50%, -40px);
+  }
+  .newPagination span {
+    width: 8px;
+    height: 8px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid #f15a24;
+    opacity: 1;
+  }
+  .newPagination span.swiper-pagination-bullet-active {
+    background-color: #f15a24;
+  }
+  .newPagination span + span {
+    margin-left: 8px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .newItem .pdtImg .controls {
+    display: none;
+  }
+}
