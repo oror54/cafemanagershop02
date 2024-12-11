@@ -168,5 +168,275 @@ export const allData: dataType[] = [
     new: false,
     newItemBg: images.defaultImage,
   },
+  // 원두
+  //약배전
+  // 미임 특별한날
+  {
+    id: 10,
+    category: "bean",
+    subCategory: "lightRoast",
+    name: "특별한날 블랜딩",
+    brand: "미임커피로스터스",
+    imageUrl: images.lightRoast01,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '약배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 넥타홀딩스 스페셜티 과테말라 세리스
+  {
+    id: 11,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "스페셜티 과테말라 세리스",
+    brand: "(주)넥타홀딩스",
+    imageUrl: images.mediumRoast01,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 넥타홀딩스 스페셜티 디카페인
+  {
+    id: 12,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "스페셜티 디카페인",
+    brand: "(주)넥타홀딩스",
+    imageUrl: images.mediumRoast02,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 넥타홀딩스 스페셜티 에티오피아 이디도
+  {
+    id: 13,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "스페셜티 에티오피아 이디도",
+    brand: "(주)넥타홀딩스",
+    imageUrl: images.mediumRoast03,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 넥타홀딩스 스페셜티 에티오피아 코케
+  {
+    id: 14,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "스페셜티 에티오피아 코케",
+    brand: "(주)넥타홀딩스",
+    imageUrl: images.mediumRoast04,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 넥타홀딩스 스페셜티 에티오피아 헤토
+  {
+    id: 15,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "스페셜티 에티오피아 헤토",
+    brand: "(주)넥타홀딩스",
+    imageUrl: images.mediumRoast05,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 넥타홀딩스 스페셜티 온두라스 마노스
+  {
+    id: 15,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "스페셜티 온두라스 마노스",
+    brand: "(주)넥타홀딩스",
+    imageUrl: images.mediumRoast06,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 넥타홀딩스 스페셜티 코스타리카 린다
+  {
+    id: 16,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "스페셜티 코스타리카 린다",
+    brand: "(주)넥타홀딩스",
+    imageUrl: images.mediumRoast07,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 넥타홀딩스 스페셜티 파나마 수아레즈
+  {
+    id: 17,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "스페셜티 파나마 수아레즈",
+    brand: "(주)넥타홀딩스",
+    imageUrl: images.mediumRoast08,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 넥타홀딩스 에티오피아 우간다 엘곤
+  {
+    id: 18,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "에티오피아 우간다 엘곤",
+    brand: "(주)넥타홀딩스",
+    imageUrl: images.mediumRoast09,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 넥타홀딩스 하이엔드 블렌드 딥레드
+  {
+    id: 19,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "하이엔드 블렌드 딥레드",
+    brand: "(주)넥타홀딩스",
+    imageUrl: images.mediumRoast10,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 넥타홀딩스 하이엔드 블렌드 블랙바카라
+  {
+    id: 20,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "하이엔드 블렌드 블랙바카라",
+    brand: "(주)넥타홀딩스",
+    imageUrl: images.mediumRoast11,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // 넥타홀딩스 하이엔드 블렌드 폴카로즈
+  {
+    id: 21,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "하이엔드 블렌드 폴카로즈",
+    brand: "(주)넥타홀딩스",
+    imageUrl: images.mediumRoast12,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // (주)랑케 밤의유영
+  {
+    id: 22,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "밤의유영",
+    brand: "(주)랑케",
+    imageUrl: images.mediumRoast13,
+    description: images.mediumRoastDetail13,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //중배전
+  // (주)랑케 세븐레이크
+  {
+    id: 23,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "세븐레이크",
+    brand: "(주)랑케",
+    imageUrl: images.mediumRoast14,
+    description: images.mediumRoastDetail14,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
 
 ];
