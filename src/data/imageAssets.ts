@@ -43,7 +43,6 @@ import mediumRoast16 from "$/assets/images/sub/beans/mid/item16_랑케_킵고잉
 import mediumRoastDetail16 from "$/assets/images/sub/beans/mid/detail16_랑케_킵고잉.png"
 
 import mediumRoast17 from "$/assets/images/sub/beans/mid/item17_GSH_C블랜딩.png"
-import mediumRoastDetail17 from "$/assets/images/sub/beans/mid/detail17_GSH_C블랜딩.jpg"
 import mediumRoast18 from "$/assets/images/sub/beans/mid/item18_GSH_G블랜딩.png"
 import mediumRoastDetail18 from "$/assets/images/sub/beans/mid/detail18_GSH_G블랜딩.jpg"
 import mediumRoast19 from "$/assets/images/sub/beans/mid/item19_GSH_H블랜딩.png"
