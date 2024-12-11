@@ -67,9 +67,9 @@ export const menuItems: MenuItemProps[] = [
     title: "식재료",
     realTitle: "ingredient",
     subItems: [
-      { name: "시럽", realName: "cake", icon: cate04Sub01 },
-      { name: "소스", realName: "rawDough", icon: cate04Sub02 },
-      { name: "파우더", realName: "bakedGoods", icon: cate04Sub03 },
+      { name: "시럽", realName: "syrup", icon: cate04Sub01 },
+      { name: "소스", realName: "sauce", icon: cate04Sub02 },
+      { name: "파우더", realName: "powder", icon: cate04Sub03 },
       { name: "기타", realName: "other", icon: cate04Sub04 },
     ],
     imageUrl: category04,

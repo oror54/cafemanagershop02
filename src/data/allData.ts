@@ -1176,4 +1176,94 @@ export const allData: dataType[] = [
     new: false,
     newItemBg: images.defaultImage,
   },
+  // 식재료
+  //시럽
+  // 토브공작소 바닐라시럽
+  {
+    id: 63,
+    category: "ingredient",
+    subCategory: "syrup",
+    name: "바닐라시럽",
+    brand: "(주)빈커스텀컴퍼니",
+    imageUrl: images.syrup01,
+    description: images.defaultImage,
+    categoryKo: '식재료',
+    categoryDetail: '시럽',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 부자재
+  //기타
+  // 이해랩 버클에이프런브라운
+  {
+    id: 64,
+    category: "subMaterial",
+    subCategory: "other",
+    name: "버클에이프런브라운",
+    brand: "이해랩",
+    imageUrl: images.subMaterial01,
+    description: images.subMaterialDetail01,
+    categoryKo: '부자재',
+    categoryDetail: '기타',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 부자재
+  //기타
+  // 이해랩 버클에이프런블랙
+  {
+    id: 65,
+    category: "subMaterial",
+    subCategory: "other",
+    name: "버클에이프런블랙",
+    brand: "이해랩",
+    imageUrl: images.subMaterial02,
+    description: images.subMaterialDetail02,
+    categoryKo: '부자재',
+    categoryDetail: '기타',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 부자재
+  //기타
+  // 이해랩 버클에이프런블루
+  {
+    id: 66,
+    category: "subMaterial",
+    subCategory: "other",
+    name: "버클에이프런블루",
+    brand: "이해랩",
+    imageUrl: images.subMaterial03,
+    description: images.subMaterialDetail03,
+    categoryKo: '부자재',
+    categoryDetail: '기타',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 부자재
+  //기타
+  // 이해랩 버클에이프런핑크
+  {
+    id: 67,
+    category: "subMaterial",
+    subCategory: "other",
+    name: "버클에이프런핑크",
+    brand: "이해랩",
+    imageUrl: images.subMaterial04,
+    description: images.subMaterialDetail04,
+    categoryKo: '부자재',
+    categoryDetail: '기타',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
 ];

@@ -103,6 +103,18 @@ import darkRoastDetail15 from "$/assets/images/sub/beans/strong/detail15_청휘�
 import darkRoast16 from "$/assets/images/sub/beans/strong/item16_토브공작소_딥브라운블랜드.png"
 
 
+import syrup01 from "$/assets/images/sub/ingredients/syrup/item01_빈커스텀컴퍼니_181바닐라시럽.png"
+
+
+import subMaterial01 from "$/assets/images/sub/subMaterials/other/item01_이해랩_버클에이프런브라운.png"
+import subMaterialDetail01 from "$/assets/images/sub/subMaterials/other/detail01_이해랩_버클에이프런브라운.png"
+import subMaterial02 from "$/assets/images/sub/subMaterials/other/item02_이해랩_버클에이프런블랙.png"
+import subMaterialDetail02 from "$/assets/images/sub/subMaterials/other/detail02_이해랩_버클에이프런블랙.png"
+import subMaterial03 from "$/assets/images/sub/subMaterials/other/item03_이해랩_버클에이프런블루.png"
+import subMaterialDetail03 from "$/assets/images/sub/subMaterials/other/detail03_이해랩_버클에이프런블루.png"
+import subMaterial04 from "$/assets/images/sub/subMaterials/other/item04_이해랩_버클에이프런핑크.png"
+import subMaterialDetail04 from "$/assets/images/sub/subMaterials/other/detail04_이해랩_버클에이프런핑크.png"
+
 import defaultImage from "$/default-image.png";
 
 export const images = {
@@ -209,6 +221,18 @@ export const images = {
     darkRoast15,
     darkRoastDetail15,
     darkRoast16,
+
+
+    syrup01,
+
+    subMaterial01,
+    subMaterialDetail01,
+    subMaterial02,
+    subMaterialDetail02,
+    subMaterial03,
+    subMaterialDetail03,
+    subMaterial04,
+    subMaterialDetail04,
 
     defaultImage,
 };
