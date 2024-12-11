@@ -7,7 +7,7 @@ import otherNewBg01 from "$/assets/images/sub/fresh/others/item01_빈커스텀�
 import others02 from "$/assets/images/sub/fresh/others/item02_빈커스텀컴퍼니_181라운지디카페인더치커피.png";
 import others03 from "$/assets/images/sub/fresh/others/item03_GSHCOFFEE_예가체프콜드브루.png";
 import others04 from "$/assets/images/sub/fresh/others/item04_로스팅코리아_콜드브루디카페인.png";
-import others05 from "$/assets/images/sub/fresh/others/item05_로스팅코리아_콜드브루 블렌딩.png";
+import others05 from "$/assets/images/sub/fresh/others/item05_로스팅코리아_콜드브루블렌딩.png";
 import others06 from "$/assets/images/sub/fresh/others/item06_솔룸커피로스터스_솔룸다크콜드브루원액.png";
 import others07 from "$/assets/images/sub/fresh/others/item07_솔룸커피로스터스_콜롬비아디카페인콜드브루원액.png";
 
