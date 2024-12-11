@@ -888,5 +888,292 @@ export const allData: dataType[] = [
     new: false,
     newItemBg: images.defaultImage,
   },
-
+  // 원두
+  //강배전
+  // (주)랑케 랑케블랙
+  {
+    id: 48,
+    category: "bean",
+    subCategory: "darkRoast",
+    name: "랑케블랙",
+    brand: "(주)랑케",
+    imageUrl: images.darkRoast01,
+    description: images.darkRoastDetail01,
+    categoryKo: '원두',
+    categoryDetail: '강배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //강배전
+  // (주)랑케 샷인더다크
+  {
+    id: 49,
+    category: "bean",
+    subCategory: "darkRoast",
+    name: "샷인더다크",
+    brand: "(주)랑케",
+    imageUrl: images.darkRoast02,
+    description: images.darkRoastDetail02,
+    categoryKo: '원두',
+    categoryDetail: '강배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //강배전
+  // 디와이아이워크샵 I Blend
+  {
+    id: 50,
+    category: "bean",
+    subCategory: "darkRoast",
+    name: "I Blend",
+    brand: "디와이아이워크샵",
+    imageUrl: images.darkRoast03,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '강배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //강배전
+  // 로스팅코리아 멜리플루어스
+  {
+    id: 51,
+    category: "bean",
+    subCategory: "darkRoast",
+    name: "멜리플루어스",
+    brand: "로스팅코리아",
+    imageUrl: images.darkRoast04,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '강배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //강배전
+  // 로스팅코리아 엔프리미엄
+  {
+    id: 52,
+    category: "bean",
+    subCategory: "darkRoast",
+    name: "엔프리미엄",
+    brand: "로스팅코리아",
+    imageUrl: images.darkRoast05,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '강배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //강배전
+  // 미임커피로스터스 데일리 블랜딩
+  {
+    id: 52,
+    category: "bean",
+    subCategory: "darkRoast",
+    name: "데일리 블랜딩",
+    brand: "미임커피로스터스",
+    imageUrl: images.darkRoast06,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '강배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //강배전
+  // 브라더스커피로스팅컴퍼니 알파치노블랜드
+  {
+    id: 53,
+    category: "bean",
+    subCategory: "darkRoast",
+    name: "알파치노블랜드",
+    brand: "브라더스커피로스팅컴퍼니",
+    imageUrl: images.darkRoast07,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '강배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //강배전
+  // 솔룸커피로스터스 솔룸 다크브라운
+  {
+    id: 54,
+    category: "bean",
+    subCategory: "darkRoast",
+    name: "솔룸 다크브라운",
+    brand: "솔룸커피로스터스",
+    imageUrl: images.darkRoast08,
+    description: images.darkRoastDetail08,
+    categoryKo: '원두',
+    categoryDetail: '강배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //강배전
+  // 스카이랩커피 더클래식
+  {
+    id: 55,
+    category: "bean",
+    subCategory: "darkRoast",
+    name: "더클래식",
+    brand: "스카이랩커피",
+    imageUrl: images.darkRoast09,
+    description: images.darkRoastDetail09,
+    categoryKo: '원두',
+    categoryDetail: '강배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //강배전
+  // 원두마을 1번원두
+  {
+    id: 56,
+    category: "bean",
+    subCategory: "darkRoast",
+    name: "1번원두",
+    brand: "원두마을",
+    imageUrl: images.darkRoast10,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '강배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //강배전
+  // 전광수커피 콜롬비아 디카페인
+  {
+    id: 57,
+    category: "bean",
+    subCategory: "darkRoast",
+    name: "콜롬비아 디카페인",
+    brand: "전광수커피",
+    imageUrl: images.darkRoast11,
+    description: images.darkRoastDetail11,
+    categoryKo: '원두',
+    categoryDetail: '강배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //강배전
+  // 전광수커피 클래식 1996
+  {
+    id: 58,
+    category: "bean",
+    subCategory: "darkRoast",
+    name: "클래식 1996",
+    brand: "전광수커피",
+    imageUrl: images.darkRoast12,
+    description: images.darkRoastDetail12,
+    categoryKo: '원두',
+    categoryDetail: '강배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //강배전
+  // 전광수커피 클래식골드
+  {
+    id: 59,
+    category: "bean",
+    subCategory: "darkRoast",
+    name: "클래식골드",
+    brand: "전광수커피",
+    imageUrl: images.darkRoast13,
+    description: images.darkRoastDetail13,
+    categoryKo: '원두',
+    categoryDetail: '강배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //강배전
+  // 청휘와 커피공장 청휘디카페인
+  {
+    id: 60,
+    category: "bean",
+    subCategory: "darkRoast",
+    name: "청휘디카페인",
+    brand: "청휘와 커피공장",
+    imageUrl: images.darkRoast14,
+    description: images.darkRoastDetail14,
+    categoryKo: '원두',
+    categoryDetail: '강배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //강배전
+  // 청휘와 커피공장 청휘커피
+  {
+    id: 61,
+    category: "bean",
+    subCategory: "darkRoast",
+    name: "청휘커피",
+    brand: "청휘와 커피공장",
+    imageUrl: images.darkRoast15,
+    description: images.darkRoastDetail15,
+    categoryKo: '원두',
+    categoryDetail: '강배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
+  // 원두
+  //강배전
+  // 토브공작소 딥브라운블렌드
+  {
+    id: 62,
+    category: "bean",
+    subCategory: "darkRoast",
+    name: "딥브라운블렌드",
+    brand: "토브공작소",
+    imageUrl: images.darkRoast16,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '강배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+  },
 ];

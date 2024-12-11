@@ -75,6 +75,34 @@ import mediumRoast36 from "$/assets/images/sub/beans/mid/item36_커피가이_커
 import mediumRoast37 from "$/assets/images/sub/beans/mid/item37_토브공작소_베이직블랜드.png"
 import mediumRoast38 from "$/assets/images/sub/beans/mid/item38_토프공작소_오손도손블랜드.png"
 
+
+import darkRoast01 from "$/assets/images/sub/beans/strong/item01_랑케_랑케블랙.png"
+import darkRoastDetail01 from "$/assets/images/sub/beans/strong/detail01_랑케_랑케블랙.jpg"
+import darkRoast02 from "$/assets/images/sub/beans/strong/item02_랑케_샷인더다크.png"
+import darkRoastDetail02 from "$/assets/images/sub/beans/strong/detail02_랑케_샷인더다크.jpg"
+import darkRoast03 from "$/assets/images/sub/beans/strong/item03_디와이워크샵_i블랜드.png"
+import darkRoast04 from "$/assets/images/sub/beans/strong/item04_로스팅코리아_멜리블루어스.png"
+import darkRoast05 from "$/assets/images/sub/beans/strong/item05_로스팅코리아_엔프리미엄.png"
+import darkRoast06 from "$/assets/images/sub/beans/strong/item06_미임커피_데일리블랜딩.png"
+import darkRoast07 from "$/assets/images/sub/beans/strong/item07_브라더스커피로스팅컴퍼니_알파치노.png"
+import darkRoast08 from "$/assets/images/sub/beans/strong/item08_솔룸커피로스터스_다크브라운.png"
+import darkRoastDetail08 from "$/assets/images/sub/beans/strong/detail08_솔룸커피로스터스_다크브라운.png"
+import darkRoast09 from "$/assets/images/sub/beans/strong/item09_스카이랩커피_더클래식.png"
+import darkRoastDetail09 from "$/assets/images/sub/beans/strong/detail09_스카이랩커피_더클래식.png"
+import darkRoast10 from "$/assets/images/sub/beans/strong/item10_원두마을_1번원두.png"
+import darkRoast11 from "$/assets/images/sub/beans/strong/item11_전광수커피_콜롬비아디카페인.png"
+import darkRoastDetail11 from "$/assets/images/sub/beans/strong/detail11_전광수커피_콜롬비아디카페인.jpg"
+import darkRoast12 from "$/assets/images/sub/beans/strong/item12_전광수커피_클래식1996.png"
+import darkRoastDetail12 from "$/assets/images/sub/beans/strong/detail12_전광수커피_클래식1996.jpg"
+import darkRoast13 from "$/assets/images/sub/beans/strong/item13_전광수커피_클래식골드.png"
+import darkRoastDetail13 from "$/assets/images/sub/beans/strong/detail13_전광수커피_클래식골드.jpg"
+import darkRoast14 from "$/assets/images/sub/beans/strong/item14_청휘와 커피공장_청휘디카페인.png"
+import darkRoastDetail14 from "$/assets/images/sub/beans/strong/detail14_청휘와 커피공장_청휘디카페인.png"
+import darkRoast15 from "$/assets/images/sub/beans/strong/item15_청휘와 커피공장_청휘커피.png"
+import darkRoastDetail15 from "$/assets/images/sub/beans/strong/detail15_청휘와 커피공장_청휘커피.png"
+import darkRoast16 from "$/assets/images/sub/beans/strong/item16_토브공작소_딥브라운블랜드.png"
+
+
 import defaultImage from "$/default-image.png";
 
 export const images = {
@@ -154,6 +182,33 @@ export const images = {
     mediumRoast36,
     mediumRoast37,
     mediumRoast38,
+
+
+    darkRoast01,
+    darkRoastDetail01,
+    darkRoast02,
+    darkRoastDetail02,
+    darkRoast03,
+    darkRoast04,
+    darkRoast05,
+    darkRoast06,
+    darkRoast07,
+    darkRoast08,
+    darkRoastDetail08,
+    darkRoast09,
+    darkRoastDetail09,
+    darkRoast10,
+    darkRoast11,
+    darkRoastDetail11,
+    darkRoast12,
+    darkRoastDetail12,
+    darkRoast13,
+    darkRoastDetail13,
+    darkRoast14,
+    darkRoastDetail14,
+    darkRoast15,
+    darkRoastDetail15,
+    darkRoast16,
 
     defaultImage,
 };
