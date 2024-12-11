@@ -35,7 +35,7 @@ export const menuItems: MenuItemProps[] = [
     title: "신선제품",
     realTitle: "fresh",
     subItems: [
-      { name: "우유", realName: "mlik", icon: cate01Sub01 },
+      { name: "우유", realName: "milk", icon: cate01Sub01 },
       { name: "과일", realName: "fruit", icon: cate01Sub02 },
       { name: "유제품", realName: "dairy", icon: cate01Sub03 },
       { name: "기타", realName: "other", icon: cate01Sub04 },
