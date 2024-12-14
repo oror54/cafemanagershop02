@@ -27,6 +27,9 @@ const ProductItem: React.FC<ProductItemProps> = ({ product }) => {
                     width={300}
                     height={300}
                 />
+                <div className={styles.tag}>
+                    <p>최저가<br/>알아보기</p>
+                </div>
             </div>
             <div className={styles.productDetails}>
                 <p className={styles.cate}>{product.categoryDetail}</p>

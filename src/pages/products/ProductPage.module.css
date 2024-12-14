@@ -31,9 +31,10 @@
  .tabInner p { font-size: 12px; font-family: 'Pretendard'; letter-spacing: -0.75px; font-weight: 500; color: #727272; } 
  }
 
-@media screen and (max-width: 1600px){
- .productList { grid-template-columns: 1fr 1fr 1fr; } 
- }
+
+ @media screen and (max-width: 1230px){
+    .productList { grid-template-columns: 1fr 1fr 1fr; } 
+    }
 
  @media screen and (max-width: 768px){
  .productList { grid-template-columns: 1fr 1fr;padding: 10px; gap: 10px; } 
