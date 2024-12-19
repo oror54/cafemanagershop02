@@ -47,17 +47,20 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
                 </div>
                 <h3 className={styles.name}>{product.name}</h3>
                 <p className={styles.brand}> {product.brand}</p>
+                <div className={styles.hashtag}>
+                  <p className={styles.tag}>{product.hashtag}</p>
+                </div>
               </div>
               <div className={styles.buttonWrap}>
-                <button className={`${styles.btn} ${styles.purchase}`}>
+                <button className={`${styles.btn} ${styles.purchase}`} onClick={() => window.open('https://apps.apple.com/kr/app/%EC%B9%B4%ED%8E%98%EB%A7%A4%EB%8B%88%EC%A0%80/id6504548363', '_blank')}>
                   <p>구매하러가기</p>
                   <i className={`${styles.logo} ${styles.apple}`}></i>
                 </button>
-                <button className={`${styles.btn} ${styles.purchase}`}>
+                <button className={`${styles.btn} ${styles.purchase}`} onClick={() => window.open('https://play.google.com/store/apps/details?id=com.cuport.cafemanager&pli=1', '_blank')}>
                   <p>구매하러가기</p>
                   <i className={`${styles.logo} ${styles.google}`}></i>
                 </button>
-                <button className={`${styles.btn} ${styles.kakao}`}>
+                <button className={`${styles.btn} ${styles.kakao}`} onClick={() => window.open('https://pf.kakao.com/_jcVsG', '_blank')}>
                   <p>문의하기</p>
                 </button>
               </div>
