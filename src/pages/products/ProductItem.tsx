@@ -28,13 +28,13 @@ const ProductItem: React.FC<ProductItemProps> = ({ product }) => {
                     height={300}
                 />
                 <div className={styles.tag}>
-                    <p>최저가<br/>알아보기</p>
+                    <p>최저가<br />알아보기</p>
                 </div>
             </div>
             <div className={styles.productDetails}>
                 <p className={styles.cate}>{product.categoryDetail}</p>
                 <h3 className={styles.name}>{product.name}</h3>
-                <p className={styles.brand}>{product.brand}</p>
+                <p className={styles.brand}>{product.hashtag}</p>
             </div>
         </Link>
     );

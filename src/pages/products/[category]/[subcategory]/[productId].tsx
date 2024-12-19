@@ -4,6 +4,7 @@ import { allData } from '@/data/allData';
 import { Product } from '@/data/Product.types';
 import Image from 'next/image';
 import styles from './ItemDetail.module.css';
+import Seo from '@/data/Seo';
 
 interface ProductDetailsProps {
   product: Product | null;
@@ -20,49 +21,61 @@ const ProductDetails: React.FC<ProductDetailsProps> = ({ product }) => {
     router.push(`/products/${product.category}/${product.subCategory}`); // useRouter로 페이지 이동
   };
 
+  const siteUrl = 'https://www.cafemanagershop.kr';
+  const productUrl = `${siteUrl}/products/${product.category}/${product.subCategory}/${product.id}`;
+
   return (
-    <main>
-      <section className={styles.ViewDetails}>
-        <div className={styles.DetailTitle}>
-          <div className={styles.TitleImage}>
-            <Image src={product.imageUrl} alt={product.name} width={500} height={500} />
-          </div>
-          <div className={styles.TitleText}>
-            <div className={styles.TextWrap}>
-              <div className={styles.CategoytyWrap}>
-                <p className={styles.cate}>{product.categoryKo}</p>
-                <p className={styles.subcate}>{product.categoryDetail}</p>
+    <>
+      <Seo
+        title={`${product.name} - 카페매니저`}
+        description={product.description}
+        url={productUrl}
+        image={product.imageUrl}
+        type="product"
+      />
+      <main>
+        <section className={styles.ViewDetails}>
+          <div className={styles.DetailTitle}>
+            <div className={styles.TitleImage}>
+              <Image src={product.imageUrl} alt={product.name} width={500} height={500} />
+            </div>
+            <div className={styles.TitleText}>
+              <div className={styles.TextWrap}>
+                <div className={styles.CategoytyWrap}>
+                  <p className={styles.cate}>{product.categoryKo}</p>
+                  <p className={styles.subcate}>{product.categoryDetail}</p>
+                </div>
+                <h3 className={styles.name}>{product.name}</h3>
+                <p className={styles.brand}> {product.brand}</p>
               </div>
-              <h3 className={styles.name}>{product.name}</h3>
-              <p className={styles.brand}> {product.brand}</p>
-            </div>
-            <div className={styles.buttonWrap}>
-              <button className={`${styles.btn} ${styles.purchase}`}>
-                <p>구매하러가기</p>
-                <i className={`${styles.logo} ${styles.apple}`}></i>
-              </button>
-              <button className={`${styles.btn} ${styles.purchase}`}>
-                <p>구매하러가기</p>
-                <i className={`${styles.logo} ${styles.google}`}></i>
-              </button>
-              <button className={`${styles.btn} ${styles.kakao}`}>
-                <p>문의하기</p>
-              </button>
+              <div className={styles.buttonWrap}>
+                <button className={`${styles.btn} ${styles.purchase}`}>
+                  <p>구매하러가기</p>
+                  <i className={`${styles.logo} ${styles.apple}`}></i>
+                </button>
+                <button className={`${styles.btn} ${styles.purchase}`}>
+                  <p>구매하러가기</p>
+                  <i className={`${styles.logo} ${styles.google}`}></i>
+                </button>
+                <button className={`${styles.btn} ${styles.kakao}`}>
+                  <p>문의하기</p>
+                </button>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section className={styles.Details}>
-        <div className={styles.description}>
-          <Image src={product.description} alt={product.name} width={1000} height={500} />
-        </div>
-      </section>
-      <section className={styles.BackButtonSection}>
-        <button className={styles.backButton} onClick={handleBackToList}>
-          목록으로
-        </button>
-      </section>
-    </main>
+        </section>
+        <section className={styles.Details}>
+          <div className={styles.description}>
+            <Image src={product.description} alt={product.name} width={1000} height={500} />
+          </div>
+        </section>
+        <section className={styles.BackButtonSection}>
+          <button className={styles.backButton} onClick={handleBackToList}>
+            목록으로
+          </button>
+        </section>
+      </main>
+    </>
   );
 };
 

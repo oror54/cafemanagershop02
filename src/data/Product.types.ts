@@ -12,8 +12,9 @@ export interface Product {
     description: string | StaticImageData;
     categoryKo: string;
     best: boolean,
-    new:boolean,
-    url: string;// Optional field
+    new: boolean,
+    url: string;
+    hashtag: string;// Optional field
 }
 
 export interface Category {
