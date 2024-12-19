@@ -43,3 +43,7 @@
  .DetailTitle .TitleImage img { width: 100%; height: auto; object-fit: contain; } 
  .TitleText { width: 100%; height: auto; } 
  }
+ @media screen and (max-width: 768px){
+.buttonWrap {gap: 20px;}
+ .buttonWrap .btn{width: 100%;}
+ }
