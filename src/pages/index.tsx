@@ -9,7 +9,7 @@ import Section06 from './main/Section06';
 
 
 export default function Home() {
-  const siteUrl = "https://www.cafemanagershop.kr";
+  const siteUrl = "https://www.cafemanagershop.com";
 
   return (
     <>
