@@ -85,3 +85,17 @@ main .tit h4 { color: #000; font-family: 'Pretendard'; font-size: 24px; font-wei
  .thumbBox .thumbImg { order: 1; } 
  .thumbBox .thumbTxt { position: static; transform: none; max-width: 100%; padding: 50px 0; } 
  }
+ @media screen and (max-width: 748px){
+    main .tit .point span{font-size: 24px;}
+    main .tit h4{font-size: 20px;}
+    .section01 .title p{font-size: 18px;}
+ }
+ @media screen and (max-width: 425px){
+    main .tit .point span{font-size: 20px;}
+    main .tit h4{font-size: 16px;}
+    .section03 .brandBox > .tit h3{font-size: 20px;}
+    .section03 .brandBox .linkWrap{flex-direction: column;}
+    .thumbBox .thumbTxt .thbTit p{font-size: 16px;}
+    .thumbBox .thumbTxt .thbTit h3{font-size: 24px;}
+    .thumbBox .thumbTxt .thbTxt p {font-size: 14px; max-width: 188px;}
+ }

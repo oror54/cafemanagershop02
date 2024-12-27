@@ -16,8 +16,6 @@
 .wrap { margin: 0 auto; width: 100%; } 
 .bestContr { max-width: 1600px; margin: 0 auto; display: flex; align-items: center; justify-content: center; gap: 20px; padding: 50px 20px; position: relative; } 
 
-
-
 .bestContr .contr { display: flex; align-items: center; justify-content: center; gap: 10px; } 
 .bestContr .contr .bestPrev { width: 30px; height: 30px; display: block; background: url(/assets/images/main/section02/Arrow-Left-slide.svg) no-repeat 50% 50%; background-size: contain; filter: grayscale(1) brightness(0); transition: all 0.3s; } 
 .bestContr .contr .bestPrev:hover { filter: grayscale(0) brightness(1); } 
@@ -33,6 +31,9 @@
 
 @media screen and (max-width: 800px){
  .bestContr .contr { display: none; } 
+ .bestItem .product .img { width: 300px; height: 300px; } 
  }
-
+ @media screen and (max-width: 425px){
+    .bestItem .product .img { width: 200px; height: 200px; } 
+    }
    
