@@ -22,7 +22,7 @@ main .tit h4 { color: #000; font-family: 'Pretendard'; font-size: 24px; font-wei
 .section01 .slide .main .image img{width: 100%; height: 100%; object-fit: contain;}
 .section01 .slide .main .text{max-width: 600px;}
 .section01 .slide .main .text img{width: 100%; object-fit: contain;}
-.section01 .controlWrap{position: absolute;top: 90%; left: 50%; z-index: 1;}
+.section01 .controlWrap{position: absolute;top: 95%; left: 50%; z-index: 1;}
 .section01 .controlWrap 
 .section01 .controlWrap  .mainPrev { width: 30px; height: 30px; display: block; background: url(/assets/images/main/section01/arrow-left.svg) no-repeat 50% 50%; background-size: contain; } 
 .section01 .controlWrap  .mainNext { width: 30px; height: 30px; display: block; background: url(/assets/images/main/section01/arrow-right.svg) no-repeat 50% 50%; background-size: contain; filter: grayscale(1) brightness(0); transition: all 0.3s; } 
