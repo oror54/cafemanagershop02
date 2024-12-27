@@ -6,15 +6,26 @@ main .tit { display: flex; flex-direction: column; align-items: center; width: 1
 main .tit .point { display: flex; flex-direction: column; align-items: center; gap: 5px; } 
 main .tit .point::before { content: ''; display: block; width: 150px; height: 20px; background: url(/tit_point.svg) 50% 50% no-repeat; background-size: contain; } 
 main .tit .point span { color: #ff6e3a; font-family: 'Paperlogy'; font-size: 28px; font-weight: 600; line-height: 140%; letter-spacing: -0.75px; } 
-main .tit h4 { color: #000; font-family: 'Pretendard'; font-size: 24px; font-weight: 400; letter-spacing: -1px;  text-align: center;} 
+main .tit h4 { color: #000; font-family: 'Pretendard'; font-size: 24px; font-weight: 400; letter-spacing: -1px; text-align: center; } 
 
 /* main -section01 */
-.section01 { width: 100%; background: url(/assets/images/main/section01.jpg) 50% 50% no-repeat; background-size: cover; display: flex; align-items: center; min-height: 600px; height: 100%;} 
+.section01 { width: 100%; display: flex; align-items: center; height: 100%;position: relative; } 
 .section01 > .wrap { max-width: 1000px; margin: 0 auto; } 
 .section01 .title { display: flex; flex-direction: column; align-items: flex-start; gap: 50px; } 
 .section01 .title h3 { color: #fff; font-family: 'GmarketSans'; font-size: 65px; font-style: normal; font-weight: 700; line-height: 100%; letter-spacing: -0.75px; } 
 .section01 .title p { color: #fff; font-family: 'Paperlogy' !important; font-size: 22px; font-weight: 500; line-height: 140%; letter-spacing: -0.75px; } 
 
+.section01 .swiperContainer { width: 100%; height: 700px; position: relative;} 
+.section01 .slide { width: 100%; height: 100%; height: 700px; } 
+.section01 .slide .main{width: 100%; display: flex; flex-direction: row; align-items: center;justify-content: center; height: 100%;}
+.section01 .slide .main .image{max-width: 600px;}
+.section01 .slide .main .image img{width: 100%; height: 100%; object-fit: contain;}
+.section01 .slide .main .text{max-width: 600px;}
+.section01 .slide .main .text img{width: 100%; object-fit: contain;}
+.section01 .controlWrap{position: absolute;top: 90%; left: 50%; z-index: 1;}
+.section01 .controlWrap 
+.section01 .controlWrap  .mainPrev { width: 30px; height: 30px; display: block; background: url(/assets/images/main/section01/arrow-left.svg) no-repeat 50% 50%; background-size: contain; } 
+.section01 .controlWrap  .mainNext { width: 30px; height: 30px; display: block; background: url(/assets/images/main/section01/arrow-right.svg) no-repeat 50% 50%; background-size: contain; filter: grayscale(1) brightness(0); transition: all 0.3s; } 
 /* main -section02 */
 .section02 { background-color: #fff; display: flex; padding: 100px 0; flex-direction: column; align-items: center; } 
 
@@ -85,17 +96,23 @@ main .tit h4 { color: #000; font-family: 'Pretendard'; font-size: 24px; font-wei
  .thumbBox .thumbImg { order: 1; } 
  .thumbBox .thumbTxt { position: static; transform: none; max-width: 100%; padding: 50px 0; } 
  }
- @media screen and (max-width: 748px){
-    main .tit .point span{font-size: 24px;}
-    main .tit h4{font-size: 20px;}
-    .section01 .title p{font-size: 18px;}
+ @media screen and (max-width: 1000px) {
+   .section01 .slide .main{flex-direction: column; gap: 0; }
+   .section01 .slide .main .image{max-width: 100%;height: 500px;}
+   .section01 .slide .main .image img{height: 100%;}
+   .section01 .slide .main .text{padding-bottom: 100px;}
+   .section01 .slide .main .text img{height: auto}
  }
- @media screen and (max-width: 425px){
-    main .tit .point span{font-size: 20px;}
-    main .tit h4{font-size: 16px;}
-    .section03 .brandBox > .tit h3{font-size: 20px;}
-    .section03 .brandBox .linkWrap{flex-direction: column;}
-    .thumbBox .thumbTxt .thbTit p{font-size: 16px;}
-    .thumbBox .thumbTxt .thbTit h3{font-size: 24px;}
-    .thumbBox .thumbTxt .thbTxt p {font-size: 14px; max-width: 188px;}
+@media screen and (max-width: 748px) { main .tit .point span { font-size: 24px; } 
+ main .tit h4 { font-size: 20px; } 
+ .section01 .title p { font-size: 18px; } 
+ .section01 .slide .main .image{padding-top: 100px;}
+ }
+@media screen and (max-width: 425px) { main .tit .point span { font-size: 20px; } 
+ main .tit h4 { font-size: 16px; } 
+ .section03 .brandBox > .tit h3 { font-size: 20px; } 
+ .section03 .brandBox .linkWrap { flex-direction: column; } 
+ .thumbBox .thumbTxt .thbTit p { font-size: 16px; } 
+ .thumbBox .thumbTxt .thbTit h3 { font-size: 24px; } 
+ .thumbBox .thumbTxt .thbTxt p { font-size: 14px; max-width: 188px; } 
  }
