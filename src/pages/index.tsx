@@ -14,8 +14,8 @@ export default function Home() {
   return (
     <>
       <Seo
-        title="카페사장님을 위한 일 잘하는 매니저 - 카페매니저"
-        description="카페 운영을 위한 다양한 도구와 정보를 제공합니다."
+        title="사업자 전용 최저가 납품 쇼핑몰 - 카페매니저"
+        description="원두, 디저트 등 다양한 카페재료를 최저가로 견적받고 손쉽게 구입해보세요. 그리고 카페사장님을 위한 다양한 혜택도 무료로 받아가세요."
         url={siteUrl}
       />
       <main>
