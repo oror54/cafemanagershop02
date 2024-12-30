@@ -8,15 +8,13 @@ interface ProductListProps {
 }
 
 const ProductList: React.FC<ProductListProps> = ({ products = [] }) => {
-    const reversedProducts = [...products].reverse();
-
-    if (!reversedProducts || products.length === 0) {
+    if (!products || products.length === 0) {
         return <div className={styles.notYet}><p>제품이 준비중 입니다.</p></div>;
     }
 
     return (
         <div className={styles.productList}>
-            {reversedProducts.map((product) => (
+            {products.map((product) => (
                 <ProductItem key={product.id} product={product} />
             ))}
         </div>
