@@ -77,6 +77,13 @@ import mediumRoast36 from "$/assets/images/sub/beans/mid/item36_커피가이_커
 import mediumRoast37 from "$/assets/images/sub/beans/mid/item37_토브공작소_베이직블랜드.png"
 import mediumRoast38 from "$/assets/images/sub/beans/mid/item38_토프공작소_오손도손블랜드.png"
 
+import mediumRoast39 from "$/assets/images/sub/beans/mid/item39_woodscoffee_우즈달맞이스페셜티.png"
+import mediumRoastDetail39 from "$/assets/images/sub/beans/mid/detail39_woodscoffee_우즈달맞이스페셜티.jpeg"
+import mediumRoast40 from "$/assets/images/sub/beans/mid/item40_woodscoffee_우즈벨벳.png"
+import mediumRoastDetail40 from "$/assets/images/sub/beans/mid/detail40_woodscoffee_우즈벨벳.jpeg"
+import mediumRoast41 from "$/assets/images/sub/beans/mid/item41_woodscoffee_피크닉스페셜티블랜드.png"
+import mediumRoastDetail41 from "$/assets/images/sub/beans/mid/detail41_woodscoffee_피크닉스페셜티블랜드.jpeg"
+
 
 import darkRoast01 from "$/assets/images/sub/beans/strong/item01_랑케_랑케블랙.png"
 import darkRoastDetail01 from "$/assets/images/sub/beans/strong/detail01_랑케_랑케블랙.jpg"
@@ -104,6 +111,11 @@ import darkRoast15 from "$/assets/images/sub/beans/strong/item15_청휘와 커�
 import darkRoastDetail15 from "$/assets/images/sub/beans/strong/detail15_청휘와 커피공장_청휘커피.png"
 import darkRoastNewBg15 from "$/assets/images/sub/beans/strong/itemBack15_청휘와 커피공장_청휘커피.png"
 import darkRoast16 from "$/assets/images/sub/beans/strong/item16_토브공작소_딥브라운블랜드.png"
+
+import darkRoast17 from "$/assets/images/sub/beans/strong/item17_woodscoffee_디카페인.png"
+import darkRoastDetail17 from "$/assets/images/sub/beans/strong/detail17_woodscoffee_디카페인.jpeg"
+
+import darkRoast18 from "$/assets/images/sub/beans/strong/item18_로스터리220_220시그니처블랜드.png"
 
 
 import syrup01 from "$/assets/images/sub/ingredients/syrup/item01_빈커스텀컴퍼니_181바닐라시럽.png"
@@ -200,6 +212,12 @@ export const images = {
     mediumRoast37,
     mediumRoast38,
 
+    mediumRoast39,
+    mediumRoastDetail39,
+    mediumRoast40,
+    mediumRoastDetail40,
+    mediumRoast41,
+    mediumRoastDetail41,
 
     darkRoast01,
     darkRoastDetail01,
@@ -228,6 +246,9 @@ export const images = {
     darkRoastNewBg15,
     darkRoast16,
 
+    darkRoast17,
+    darkRoastDetail17,
+    darkRoast18,
 
     syrup01,
 

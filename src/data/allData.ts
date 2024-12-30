@@ -902,10 +902,67 @@ export const allData: dataType[] = [
     hashtag: "#조청 #카라멜 #다크초콜릿",
   },
   // 원두
+  //중배전
+  // 우즈커피 우즈달맞이 스페셜티
+  {
+    id: 48,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "우즈달맞이 스페셜티",
+    brand: "woodscoffee",
+    imageUrl: images.mediumRoast39,
+    description: images.mediumRoastDetail39,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#다크초콜릿 #말린오렌지 #캐러멜",
+  },
+  // 원두
+  //중배전
+  // 우즈커피 우즈벨벳
+  {
+    id: 49,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "우즈벨벳",
+    brand: "woodscoffee",
+    imageUrl: images.mediumRoast40,
+    description: images.mediumRoastDetail40,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#맥아 #다크초콜릿 #캐러멜",
+  },
+  // 원두
+  //중배전
+  // 우즈커피 피크닉 스페셜티 블랜드
+  {
+    id: 50,
+    category: "bean",
+    subCategory: "mediumRoast",
+    name: "피크닉 스페셜티 블랜드",
+    brand: "woodscoffee",
+    imageUrl: images.mediumRoast41,
+    description: images.mediumRoastDetail41,
+    categoryKo: '원두',
+    categoryDetail: '중배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#견과류 #다크초콜릿 #캐러멜",
+  },
+  // 원두
   //강배전
   // (주)랑케 랑케블랙
   {
-    id: 48,
+    id: 51,
     category: "bean",
     subCategory: "darkRoast",
     name: "랑케블랙",
@@ -920,11 +977,12 @@ export const allData: dataType[] = [
     newItemBg: images.defaultImage,
     hashtag: "#다크초콜릿 #구운견과류 #풀바디",
   },
+
   // 원두
   //강배전
   // (주)랑케 샷인더다크
   {
-    id: 49,
+    id: 52,
     category: "bean",
     subCategory: "darkRoast",
     name: "샷인더다크",
@@ -943,7 +1001,7 @@ export const allData: dataType[] = [
   //강배전
   // 디와이아이워크샵 I Blend
   {
-    id: 50,
+    id: 53,
     category: "bean",
     subCategory: "darkRoast",
     name: "I Blend",
@@ -962,7 +1020,7 @@ export const allData: dataType[] = [
   //강배전
   // 로스팅코리아 멜리플루어스
   {
-    id: 51,
+    id: 54,
     category: "bean",
     subCategory: "darkRoast",
     name: "멜리플루어스",
@@ -981,7 +1039,7 @@ export const allData: dataType[] = [
   //강배전
   // 로스팅코리아 엔프리미엄
   {
-    id: 52,
+    id: 55,
     category: "bean",
     subCategory: "darkRoast",
     name: "엔프리미엄",
@@ -1000,7 +1058,7 @@ export const allData: dataType[] = [
   //강배전
   // 미임커피로스터스 데일리 블랜딩
   {
-    id: 53,
+    id: 56,
     category: "bean",
     subCategory: "darkRoast",
     name: "데일리 블랜딩",
@@ -1019,7 +1077,7 @@ export const allData: dataType[] = [
   //강배전
   // 브라더스커피로스팅컴퍼니 알파치노블랜드
   {
-    id: 54,
+    id: 57,
     category: "bean",
     subCategory: "darkRoast",
     name: "알파치노블랜드",
@@ -1038,7 +1096,7 @@ export const allData: dataType[] = [
   //강배전
   // 솔룸커피로스터스 솔룸 다크브라운
   {
-    id: 55,
+    id: 58,
     category: "bean",
     subCategory: "darkRoast",
     name: "솔룸 다크브라운",
@@ -1057,7 +1115,7 @@ export const allData: dataType[] = [
   //강배전
   // 스카이랩커피 더클래식
   {
-    id: 56,
+    id: 59,
     category: "bean",
     subCategory: "darkRoast",
     name: "더클래식",
@@ -1076,7 +1134,7 @@ export const allData: dataType[] = [
   //강배전
   // 원두마을 1번원두
   {
-    id: 57,
+    id: 60,
     category: "bean",
     subCategory: "darkRoast",
     name: "1번원두",
@@ -1095,7 +1153,7 @@ export const allData: dataType[] = [
   //강배전
   // 전광수커피 콜롬비아 디카페인
   {
-    id: 58,
+    id: 61,
     category: "bean",
     subCategory: "darkRoast",
     name: "콜롬비아 디카페인",
@@ -1114,7 +1172,7 @@ export const allData: dataType[] = [
   //강배전
   // 전광수커피 클래식 1996
   {
-    id: 59,
+    id: 62,
     category: "bean",
     subCategory: "darkRoast",
     name: "클래식 1996",
@@ -1133,7 +1191,7 @@ export const allData: dataType[] = [
   //강배전
   // 전광수커피 클래식골드
   {
-    id: 60,
+    id: 63,
     category: "bean",
     subCategory: "darkRoast",
     name: "클래식골드",
@@ -1152,7 +1210,7 @@ export const allData: dataType[] = [
   //강배전
   // 청휘와 커피공장 청휘디카페인
   {
-    id: 61,
+    id: 64,
     category: "bean",
     subCategory: "darkRoast",
     name: "청휘디카페인",
@@ -1171,7 +1229,7 @@ export const allData: dataType[] = [
   //강배전
   // 청휘와 커피공장 청휘커피
   {
-    id: 62,
+    id: 65,
     category: "bean",
     subCategory: "darkRoast",
     name: "청휘커피",
@@ -1190,7 +1248,7 @@ export const allData: dataType[] = [
   //강배전
   // 토브공작소 딥브라운블렌드
   {
-    id: 63,
+    id: 66,
     category: "bean",
     subCategory: "darkRoast",
     name: "딥브라운블렌드",
@@ -1205,11 +1263,50 @@ export const allData: dataType[] = [
     newItemBg: images.defaultImage,
     hashtag: "#초콜릿 #곡물 #견과 #과일",
   },
+  // 원두
+  //강배전
+  // woodscoffee 디카페인
+  {
+    id: 67,
+    category: "bean",
+    subCategory: "darkRoast",
+    name: "디카페인",
+    brand: "woodscoffee",
+    imageUrl: images.darkRoast17,
+    description: images.darkRoastDetail17,
+    categoryKo: '원두',
+    categoryDetail: '강배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#견과류 #다크초콜릿 #구운밤",
+  },
+  // 원두
+  //강배전
+  // woodscoffee 디카페인
+  {
+    id: 68,
+    category: "bean",
+    subCategory: "darkRoast",
+    name: "220 시그니처 블렌드",
+    brand: "로스터리220",
+    imageUrl: images.darkRoast18,
+    description: images.defaultImage,
+    categoryKo: '원두',
+    categoryDetail: '강배전',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#견과류 #밀크초콜릿 #카카오",
+  },
+
   // 식재료
   //시럽
   // 토브공작소 바닐라시럽
   {
-    id: 64,
+    id: 69,
     category: "ingredient",
     subCategory: "syrup",
     name: "바닐라시럽",
@@ -1228,7 +1325,7 @@ export const allData: dataType[] = [
   //기타
   // 이해랩 버클에이프런브라운
   {
-    id: 65,
+    id: 70,
     category: "subMaterial",
     subCategory: "other",
     name: "버클에이프런브라운",
@@ -1247,7 +1344,7 @@ export const allData: dataType[] = [
   //기타
   // 이해랩 버클에이프런블랙
   {
-    id: 66,
+    id: 71,
     category: "subMaterial",
     subCategory: "other",
     name: "버클에이프런블랙",
@@ -1266,7 +1363,7 @@ export const allData: dataType[] = [
   //기타
   // 이해랩 버클에이프런블루
   {
-    id: 67,
+    id: 72,
     category: "subMaterial",
     subCategory: "other",
     name: "버클에이프런블루",
@@ -1285,7 +1382,7 @@ export const allData: dataType[] = [
   //기타
   // 이해랩 버클에이프런핑크
   {
-    id: 68,
+    id: 73,
     category: "subMaterial",
     subCategory: "other",
     name: "버클에이프런핑크",
