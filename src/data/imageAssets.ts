@@ -19,6 +19,7 @@ import freshothers07 from "$/assets/images/sub/fresh/others/item07_솔룸커피�
 import freshothersDetail07 from "$/assets/images/sub/fresh/others/detail07_솔룸커피로스터스_콜롬비아디카페인골드브루원액.png";
 
 import lightRoast01 from "$/assets/images/sub/beans/weak/item01_미임커피_특별한날.png"
+import lightRoast02 from "$/assets/images/sub/beans/weak/item02_지구커피로스터스_달 블랜드.png"
 
 import mediumRoast01 from "$/assets/images/sub/beans/mid/item01_넥타_과테말라세리스.png"
 import mediumRoast02 from "$/assets/images/sub/beans/mid/item02_넥타_디카페인.png"
@@ -83,6 +84,8 @@ import mediumRoast40 from "$/assets/images/sub/beans/mid/item40_woodscoffee_우�
 import mediumRoastDetail40 from "$/assets/images/sub/beans/mid/detail40_woodscoffee_우즈벨벳.jpeg"
 import mediumRoast41 from "$/assets/images/sub/beans/mid/item41_woodscoffee_피크닉스페셜티블랜드.png"
 import mediumRoastDetail41 from "$/assets/images/sub/beans/mid/detail41_woodscoffee_피크닉스페셜티블랜드.jpeg"
+
+import mediumRoast42 from "$/assets/images/sub/beans/mid/item42_지구커피로스터스_해 블랜드.png"
 
 
 import darkRoast01 from "$/assets/images/sub/beans/strong/item01_랑케_랑케블랙.png"
@@ -153,6 +156,7 @@ export const images = {
     freshothersDetail07,
 
     lightRoast01,
+    lightRoast02,
 
     mediumRoast01,
     mediumRoast02,
@@ -218,6 +222,8 @@ export const images = {
     mediumRoastDetail40,
     mediumRoast41,
     mediumRoastDetail41,
+
+    mediumRoast42,
 
     darkRoast01,
     darkRoastDetail01,
