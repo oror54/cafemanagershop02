@@ -15,7 +15,6 @@ export default function Home() {
     <>
       <Seo
         title="사업자 전용 최저가 납품 쇼핑몰 - 카페매니저"
-        robots="index, follow"
         description="원두, 디저트 등 다양한 카페재료를 최저가로 견적받고 손쉽게 구입해보세요. 그리고 카페사장님을 위한 다양한 혜택도 무료로 받아가세요."
         url={siteUrl}
       />
