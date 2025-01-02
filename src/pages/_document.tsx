@@ -2,7 +2,7 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 export default function Document() {
   return (
-    <Html lang="en">
+    <Html lang="ko">
       <Head>
         <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -22,7 +22,6 @@ export default function Document() {
         <meta name="keywords" content="카페원두, 원두, 디저트, 시럽, 원두납품, 원두도매, 카페재료, 카페시럽, 디저트납품, 카페우유, 카페원두납품, 디저트레시피, 카페창업, 사업자원두, 업소용원두, 카페원두납품, 개인카페창업, 카페, 베이커리납품, 소자본카페" />
         <meta name="author" content="https://www.cafemanagershop.com" />
         <meta name="Robots" content="index, follow" />
-        <meta name="title" content="사업자 전용 최저가 납품 쇼핑몰 - 카페매니저" />
         <meta name="naver-site-verification" content="" />
         <meta name="google-site-verification" content=" " />
         <meta name="NaverBot" content="All" />
@@ -42,9 +41,9 @@ export default function Document() {
         <meta property="og:site_name" content="사업자 전용 최저가 납품 쇼핑몰 - 카페매니저" />
         <meta property="og:locale" content="ko_KR" />
 
+        {/* Site Verification */}
         <meta name="naver-site-verification" content="e48d395d4aff77fb8cc19027ac2b37e9d1d45b25" />
         <meta name="google-site-verification" content="iY8MNvrBwCorFcJBU8-rfiSpSssR4gfTfofiaFDcoUY" />
-
       </Head>
       <body>
         <Main />

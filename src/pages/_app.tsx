@@ -19,12 +19,10 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>사업자 전용 최저가 납품 쇼핑몰 - 카페매니저</title>
-        <meta name="description" content="원두, 디저트 등 다양한 카페재료를 최저가로 견적받고 손쉽게 구입해보세요. 그리고 카페사장님을 위한 다양한 혜택도 무료로 받아가세요." />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       {/* 공통 헤더 */}
       <Header />
-      <Component {...pageProps} />3
+      <Component {...pageProps} />
       <Footer />
     </>
   );

@@ -8,6 +8,7 @@ interface SeoProps {
     url: string;
     image?: string | StaticImageData; // 수정된 타입
     type?: string;
+    robots: string;
 }
 
 const Seo: React.FC<SeoProps> = ({
