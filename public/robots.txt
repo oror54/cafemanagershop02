@@ -6,4 +6,4 @@ Allow: /
 Host: https://www.cafemanagershop.com
 
 Sitemap: https://cafemanagershop.com/sitemap.xml
-#DaumWebMasterTool:e8c3ccf47895c4d1a7c78122604e84a3646dac9aa1c9944da155de73c3f103fe:AXt34ObuaDF/BRYOdgJbeg==
+#DaumWebMasterTool:e8c3ccf47895c4d1a7c78122604e84a3646dac9aa1c9944da155de73c3f103fe:nBiGoU1WnxXNfvqH5Nihow==
