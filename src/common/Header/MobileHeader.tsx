@@ -4,7 +4,7 @@ import styles from "./Header.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import HeaderLogo from "$/assets/images/common/logo-character.svg";
-import { MenuItemProps } from "src/data/Header.types"; 
+import { MenuItemProps } from "src/data/Header.types";
 
 interface MobileHeaderProps {
   menuItems: MenuItemProps[];
@@ -46,7 +46,7 @@ export default function MobileHeader({
         <div className={styles.wrap}>
           <div className={styles.inner}>
             <h1>
-              <Link href="/" className={styles.logo}>
+              <Link href="https://www.cafemanagershop.com/" className={styles.logo}>
                 <div className={styles.img}>
                   <Image src={HeaderLogo} alt="카페매니저" />
                 </div>
@@ -77,9 +77,8 @@ export default function MobileHeader({
                         item.subItems[0].realName
                       )
                     }
-                    className={`${styles.depth_tit} ${
-                      isActiveCategory(item.title) ? styles.active : ""
-                    }`}
+                    className={`${styles.depth_tit} ${isActiveCategory(item.title) ? styles.active : ""
+                      }`}
                   >
                     {item.title}
                   </button>
@@ -94,11 +93,10 @@ export default function MobileHeader({
                                 subItem.realName
                               )
                             } // Trigger subcategory click
-                            className={`${
-                              isActiveSubCategory(item.title, subItem.name)
-                                ? styles.active
-                                : ""
-                            }`}
+                            className={`${isActiveSubCategory(item.title, subItem.name)
+                              ? styles.active
+                              : ""
+                              }`}
                           >
                             {subItem.name}
                           </button>
