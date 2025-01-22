@@ -196,7 +196,7 @@ export const allData: dataType[] = [
     best: false,
     new: false,
     newItemBg: images.defaultImage,
-    hashtag: "",
+    hashtag: "#쟈스민 #시트러스 #땅콩",
   },
   // 원두
   //약배전
