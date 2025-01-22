@@ -1,5 +1,5 @@
 import React from "react";
-import { GetStaticPaths, GetStaticProps } from "next";
+import { GetServerSideProps } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../ProductPage.module.css";
@@ -9,6 +9,7 @@ import Pagination from "@/common/Pagination/Pagination";
 import { Product } from "@/data/Product.types";
 import { allData } from "@/data/allData";
 import Seo from "@/data/Seo";
+import { useRouter } from "next/router";
 
 interface SubCategoryPageProps {
   category: string;
@@ -34,17 +35,20 @@ const SubCategoryPage: React.FC<SubCategoryPageProps> = ({
   currentPage,
 }) => {
   const { imageUrl, subItems, title } = currentCategory;
+  const router = useRouter();
+  const fullUrl = `https://www.cafemanagershop.com${router.asPath}`;
 
   const handlePageChange = (newPage: number) => {
-    window.location.href = `/products/${category}/${subcategory}?page=${newPage}`;
+    router.push(`/products/${category}/${subcategory}?page=${newPage}`);
   };
+
 
   return (
     <>
       <Seo
         title={`${title} - ${subcategory} | 카페매니저`}
         description={`카페매니저에서 제공하는 ${title}의 ${subcategory} 제품 리스트를 확인하세요.`}
-        url={`https://www.cafemanagershop.com/products/${category}/${subcategory}`}
+        url={fullUrl}
       />
       <div>
         {imageUrl && (
@@ -73,9 +77,8 @@ const SubCategoryPage: React.FC<SubCategoryPageProps> = ({
                 key={realName}
                 href={`/products/${category}/${realName}`}
                 passHref
-                className={`${styles.subCategoryLink} ${
-                  subcategory === realName ? styles.active : ""
-                }`}
+                className={`${styles.subCategoryLink} ${subcategory === realName ? styles.active : ""
+                  }`}
               >
                 <div className={styles.tabInner}>
                   <div className={styles.tabIcon}>
@@ -93,7 +96,7 @@ const SubCategoryPage: React.FC<SubCategoryPageProps> = ({
 
         {/* 제품 리스트 */}
         {products.length === 0 ? (
-          <div>No products found</div>
+          <div className={styles.noProducts}><p>해당 카테고리에 제품이 없습니다.</p></div>
         ) : (
           <ProductList products={products} />
         )}
@@ -108,31 +111,25 @@ const SubCategoryPage: React.FC<SubCategoryPageProps> = ({
   );
 };
 
-export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = menuItems.flatMap((category) =>
-    category.subItems.map((sub) => ({
-      params: { category: category.realTitle, subcategory: sub.realName },
-    }))
-  );
-  return { paths, fallback: false };
-};
-
-export const getStaticProps: GetStaticProps = async ({ params }) => {
+export const getServerSideProps: GetServerSideProps = async ({ params, query }) => {
   const { category, subcategory } = params as { category: string; subcategory: string };
+  const page = parseInt(query.page as string, 10) || 1; // 기본적으로 첫 페이지
 
   const currentCategory = menuItems.find(
     (item) => item.realTitle === category
   );
+
   if (!currentCategory) {
     return { notFound: true };
   }
 
   const filteredProducts = allData.filter(
-    (item) => item.category === currentCategory.realTitle && item.subCategory === subcategory
+    (item) =>
+      item.category === currentCategory.realTitle &&
+      item.subCategory === subcategory
   );
 
-  const productsPerPage = 12;
-  const page = 1; // 기본적으로 첫 번째 페이지를 로드
+  const productsPerPage = 12; // 페이지당 제품 수
   const totalPages = Math.ceil(filteredProducts.length / productsPerPage);
   const currentPageProducts = filteredProducts.slice(
     (page - 1) * productsPerPage,
