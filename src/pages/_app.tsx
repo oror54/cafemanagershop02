@@ -10,6 +10,7 @@ import Head from "next/head";
 
 import Header from 'src/common/Header/Header';
 import Footer from 'src/common/Footer/Footer';
+import QuickMenu from '@/common/QuickMenu/QuickMenu';
 
 
 
@@ -24,6 +25,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Header />
       <Component {...pageProps} />
       <Footer />
+      <QuickMenu />
     </>
   );
 }
