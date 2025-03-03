@@ -1,7 +1,6 @@
 import { StaticImageData } from "next/image";
 import { images } from "./imageAssets";
 
-
 type dataType = {
   id: number;
   category: string;
@@ -461,8 +460,8 @@ export const allData: dataType[] = [
     categoryDetail: '중배전',
     url: "",
     best: false,
-    new: true,
-    newItemBg: images.mediumRoastNewBg26,
+    new: false,
+    newItemBg: images.defaultImage,
     hashtag: "#마카다미아 #귤 #사탕수수",
   },
   // 원두
@@ -499,7 +498,7 @@ export const allData: dataType[] = [
     categoryDetail: '중배전',
     url: "",
     best: false,
-    new: false,
+    new: true,
     newItemBg: images.mediumRoastNewBg34,
     hashtag: "#헤이즐넛초코 #바닐라 #밀크초콜릿",
   },
@@ -556,7 +555,7 @@ export const allData: dataType[] = [
     categoryDetail: '중배전',
     url: "",
     best: false,
-    new: false,
+    new: true,
     newItemBg: images.mediumRoastNewBg18,
     hashtag: "#카카오 #구운견과류 #갈설탕",
   },
@@ -879,8 +878,8 @@ export const allData: dataType[] = [
     categoryDetail: '중배전',
     url: "",
     best: false,
-    new: true,
-    newItemBg: images.mediumRoastNewBg14,
+    new: false,
+    newItemBg: images.defaultImage,
     hashtag: "#밀크초콜릿 #바닐라 #미디엄바디",
   },
   // 원두
@@ -898,8 +897,8 @@ export const allData: dataType[] = [
     categoryDetail: '중배전',
     url: "",
     best: false,
-    new: true,
-    newItemBg: images.mediumRoastNewBg37,
+    new: false,
+    newItemBg: images.defaultImage,
     hashtag: "",
   },
   // 원두
@@ -1127,8 +1126,8 @@ export const allData: dataType[] = [
     categoryDetail: '강배전',
     url: "",
     best: false,
-    new: true,
-    newItemBg: images.darkRoastNewBg04,
+    new: false,
+    newItemBg: images.defaultImage,
     hashtag: "#다크초콜릿 #호두 #갈설탕",
   },
   // 원두
@@ -1318,7 +1317,7 @@ export const allData: dataType[] = [
     categoryDetail: '강배전',
     url: "",
     best: false,
-    new: false,
+    new: true,
     newItemBg: images.darkRoastNewBg15,
     hashtag: "#다크초콜릿 #꽃향 #밸런스",
   },
