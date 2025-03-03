@@ -37,6 +37,7 @@ import mediumRoast12 from "$/assets/images/sub/beans/mid/item12_넥타_폴카로
 import mediumRoast13 from "$/assets/images/sub/beans/mid/item13_랑케_밤의유영.png"
 import mediumRoastDetail13 from "$/assets/images/sub/beans/mid/detail13_랑케_밤의유영.png"
 import mediumRoast14 from "$/assets/images/sub/beans/mid/item14_랑케_세븐레이크.png"
+import mediumRoastNewBg14 from "$/assets/images/sub/beans/mid/itemBack14_랑케_세븐레이크.png"
 import mediumRoastDetail14 from "$/assets/images/sub/beans/mid/detail14_랑케_세븐레이크 상세.jpg"
 import mediumRoast15 from "$/assets/images/sub/beans/mid/item15_랑케_써니비지.png"
 import mediumRoastDetail15 from "$/assets/images/sub/beans/mid/detail15_랑케_써니비치상세.png"
@@ -56,6 +57,7 @@ import mediumRoast24 from "$/assets/images/sub/beans/mid/item24_뤼미에르커�
 import mediumRoast25 from "$/assets/images/sub/beans/mid/item25_미임커피_슈가케인.png"
 
 import mediumRoast26 from "$/assets/images/sub/beans/mid/item26_빈커스텀컴퍼니_오로라.png"
+import mediumRoastNewBg26 from "$/assets/images/sub/beans/mid/itemBack26_빈커스텀컴퍼니_오로라.png"
 
 import mediumRoast27 from "$/assets/images/sub/beans/mid/item27_솔룸커피로스터스_브라운.png"
 import mediumRoastDetail27 from "$/assets/images/sub/beans/mid/detail27_솔룸커피로스터스_브라운.png"
@@ -76,6 +78,7 @@ import mediumRoastNewBg34 from "$/assets/images/sub/beans/mid/itemBack34_커피�
 import mediumRoast35 from "$/assets/images/sub/beans/mid/item35_커피가이_조이가이.png"
 import mediumRoast36 from "$/assets/images/sub/beans/mid/item36_커피가이_커피가이.png"
 import mediumRoast37 from "$/assets/images/sub/beans/mid/item37_토브공작소_베이직블랜드.png"
+import mediumRoastNewBg37 from "$/assets/images/sub/beans/mid/itemBack37_토브공작소_베이직블랜드.png"
 import mediumRoast38 from "$/assets/images/sub/beans/mid/item38_토프공작소_오손도손블랜드.png"
 
 import mediumRoast39 from "$/assets/images/sub/beans/mid/item39_woodscoffee_우즈달맞이스페셜티.png"
@@ -94,6 +97,8 @@ import darkRoast02 from "$/assets/images/sub/beans/strong/item02_랑케_샷인�
 import darkRoastDetail02 from "$/assets/images/sub/beans/strong/detail02_랑케_샷인더다크.jpg"
 import darkRoast03 from "$/assets/images/sub/beans/strong/item03_디와이워크샵_i블랜드.png"
 import darkRoast04 from "$/assets/images/sub/beans/strong/item04_로스팅코리아_멜리블루어스.png"
+import darkRoastNewBg04 from "$/assets/images/sub/beans/strong/itemBack04_로스팅코리아_멜리블루어스.png"
+
 import darkRoast05 from "$/assets/images/sub/beans/strong/item05_로스팅코리아_엔프리미엄.png"
 import darkRoast06 from "$/assets/images/sub/beans/strong/item06_미임커피_데일리블랜딩.png"
 import darkRoast07 from "$/assets/images/sub/beans/strong/item07_브라더스커피로스팅컴퍼니_알파치노.png"
@@ -174,6 +179,7 @@ export const images = {
     mediumRoast13,
     mediumRoastDetail13,
     mediumRoast14,
+    mediumRoastNewBg14,
     mediumRoastDetail14,
     mediumRoast15,
     mediumRoastDetail15,
@@ -194,6 +200,7 @@ export const images = {
 
 
     mediumRoast26,
+    mediumRoastNewBg26,
 
     mediumRoast27,
     mediumRoastDetail27,
@@ -214,6 +221,7 @@ export const images = {
     mediumRoast35,
     mediumRoast36,
     mediumRoast37,
+    mediumRoastNewBg37,
     mediumRoast38,
 
     mediumRoast39,
@@ -231,6 +239,8 @@ export const images = {
     darkRoastDetail02,
     darkRoast03,
     darkRoast04,
+    darkRoastNewBg04,
+
     darkRoast05,
     darkRoast06,
     darkRoast07,
