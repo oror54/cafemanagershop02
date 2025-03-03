@@ -1,11 +1,17 @@
 import type { NextConfig } from "next";
+import path from "path";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   reactStrictMode: true,
-  // output: "export",
   images: {
-    unoptimized: true, // 이미지 최적화 비활성화
+    unoptimized: true,
+  },
+  webpack: (config) => {
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      $: path.resolve(__dirname, "src"), // Alias $ -> src folder
+    };
+    return config;
   },
 };
 
