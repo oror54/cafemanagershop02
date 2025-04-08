@@ -15,7 +15,7 @@ import milkdetail07 from '$/assets/images/sub/fresh/milk/detail07.png';
 
 import dairy01 from '$/assets/images/sub/fresh/dairy/item01_서울우유신림5동_생크림.png';
 import dairy02 from '$/assets/images/sub/fresh/dairy/item02_서울우유신림5동_연유.png';
-import dairy03 from '$/assets/images/sub/fresh/dairy/item03_써니_덴마크_리코타치즈_1kg_국산원유_100%.png';
+import dairy03 from '$/assets/images/sub/fresh/dairy/item03_써니_덴마크_리코타치즈_1kg_국산원유_100.png';
 import dairydetail03 from '$/assets/images/sub/fresh/dairy/detail03.jpg';
 import dairy04 from '$/assets/images/sub/fresh/dairy/item04_써니_덴마크_후레쉬연유_500g.png';
 import dairydetail04 from '$/assets/images/sub/fresh/dairy/detail04.jpg';
@@ -29,9 +29,9 @@ import dairy08 from '$/assets/images/sub/fresh/dairy/item08_써니_매일_스위
 import dairydetail08 from '$/assets/images/sub/fresh/dairy/detail08.jpg';
 import dairy09 from '$/assets/images/sub/fresh/dairy/item09_써니_매일연유_소프트_500g_가공연유.png';
 import dairydetail09 from '$/assets/images/sub/fresh/dairy/detail09.jpg';
-import dairy10 from '$/assets/images/sub/fresh/dairy/item10_써니_매일_동물성_휘핑크림_유지방_35%.png';
+import dairy10 from '$/assets/images/sub/fresh/dairy/item10_써니_매일_동물성_휘핑크림_유지방_35.png';
 import dairydetail10 from '$/assets/images/sub/fresh/dairy/detail10.png';
-import dairy11 from '$/assets/images/sub/fresh/dairy/item11_써니_매일_식물성_휘핑크림_유지방_22%.png';
+import dairy11 from '$/assets/images/sub/fresh/dairy/item11_써니_매일_식물성_휘핑크림_유지방_22.png';
 import dairydetail11 from '$/assets/images/sub/fresh/dairy/detail11.png';
 import dairy12 from '$/assets/images/sub/fresh/dairy/item12_써니_매일연유_빨강.png';
 import dairydetail12 from '$/assets/images/sub/fresh/dairy/detail12.jpg';
@@ -113,8 +113,7 @@ import mediumRoast34 from "$/assets/images/sub/beans/mid/item34_커피기이_스
 import mediumRoastNewBg34 from "$/assets/images/sub/beans/mid/itemBack34_커피기이_스타가이.png"
 import mediumRoast35 from "$/assets/images/sub/beans/mid/item35_커피가이_조이가이.png"
 import mediumRoast36 from "$/assets/images/sub/beans/mid/item36_커피가이_커피가이.png"
-import mediumRoast37 from "$/assets/images/sub/beans/mid/item37_토브공작소_베이직블랜드.png"
-import mediumRoast38 from "$/assets/images/sub/beans/mid/item38_토프공작소_오손도손블랜드.png"
+
 
 import mediumRoast39 from "$/assets/images/sub/beans/mid/item39_woodscoffee_우즈달맞이스페셜티.png"
 import mediumRoastDetail39 from "$/assets/images/sub/beans/mid/detail39_woodscoffee_우즈달맞이스페셜티.jpeg"
@@ -151,7 +150,6 @@ import darkRoastDetail14 from "$/assets/images/sub/beans/strong/detail14_청휘�
 import darkRoast15 from "$/assets/images/sub/beans/strong/item15_청휘와 커피공장_청휘커피.png"
 import darkRoastDetail15 from "$/assets/images/sub/beans/strong/detail15_청휘와 커피공장_청휘커피.png"
 import darkRoastNewBg15 from "$/assets/images/sub/beans/strong/itemBack15_청휘와 커피공장_청휘커피.png"
-import darkRoast16 from "$/assets/images/sub/beans/strong/item16_토브공작소_딥브라운블랜드.png"
 
 import darkRoast17 from "$/assets/images/sub/beans/strong/item17_woodscoffee_디카페인.png"
 import darkRoastDetail17 from "$/assets/images/sub/beans/strong/detail17_woodscoffee_디카페인.jpeg"
@@ -160,7 +158,7 @@ import darkRoast18 from "$/assets/images/sub/beans/strong/item18_로스터리220
 
 
 import syrup01 from '$/assets/images/sub/ingredients/syrup/item01_빈커스텀컴퍼니_181바닐라시럽.png';
-import syrupdetail01 from '$/assets/images/sub/ingredients/syrup/detail01.jpg';
+import syrupdetail01 from '$/assets/images/sub/ingredients/syrup/detail02.jpg';
 import syrup02 from '$/assets/images/sub/ingredients/syrup/item02_써니_1883_바닐라시럽_1000mL.png';
 import syrupdetail02 from '$/assets/images/sub/ingredients/syrup/detail02.jpg';
 import syrup03 from '$/assets/images/sub/ingredients/syrup/item03_써니_1883_로스티스헤이즐넛_1000mL.png';
@@ -525,6 +523,7 @@ import powder09 from '$/assets/images/sub/ingredients/powder/item09_포모나_�
 import powderdetail09 from '$/assets/images/sub/ingredients/powder/detail09.jpg';
 import powder10 from '$/assets/images/sub/ingredients/powder/item10_포모나_프리잔떼_파우더_500g.png';
 import powderdetail10 from '$/assets/images/sub/ingredients/powder/detail10.jpg';
+import powderNewBg10 from '$/assets/images/sub/ingredients/powder/powderBack10.jpg';
 import powder11 from '$/assets/images/sub/ingredients/powder/item11_포모나_제주봄빛_그린티_파우더_500g.png';
 import powderdetail11 from '$/assets/images/sub/ingredients/powder/detail11.jpg';
 
@@ -655,8 +654,6 @@ export const images = {
     mediumRoastNewBg34,
     mediumRoast35,
     mediumRoast36,
-    mediumRoast37,
-    mediumRoast38,
 
     mediumRoast39,
     mediumRoastDetail39,
@@ -692,7 +689,6 @@ export const images = {
     darkRoast15,
     darkRoastDetail15,
     darkRoastNewBg15,
-    darkRoast16,
 
     darkRoast17,
     darkRoastDetail17,
@@ -1065,6 +1061,7 @@ export const images = {
     powderdetail09,
     powder10,
     powderdetail10,
+    powderNewBg10,
     powder11,
     powderdetail11,
 

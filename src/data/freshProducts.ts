@@ -5,18 +5,90 @@ const freshProducts: Omit<ProductData, "id">[] = [
   {
     category: "fresh",
     subCategory: "milk",
-    name: "서울 흰우유(1,000mL)",
-    brand: "서울우유신림5동",
-    imageUrl: images.milk01,
-    description: images.defaultImage,
-    categoryKo: "신선식품",
-    categoryDetail: "우유",
+    name: "동원 그린덴마크 귀리 950mL",
+    brand: "써니",
+    imageUrl: images.milk03,
+    description: images.milkdetail03,
+    categoryKo: '신선식품',
+    categoryDetail: '우유',
     url: "",
     best: false,
     new: false,
     newItemBg: images.defaultImage,
-    hashtag: "#서울우유 #고소함",
+    hashtag: "#동원 #귀리우유",
   },
+  //신선제품
+  //우유
+  //써니 동원 그린덴마크 아몬드 950mL
+  {
+    category: "fresh",
+    subCategory: "milk",
+    name: "동원 그린덴마크 아몬드 950mL",
+    brand: "써니",
+    imageUrl: images.milk04,
+    description: images.milkdetail04,
+    categoryKo: '신선식품',
+    categoryDetail: '우유',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#동원 #아몬드우유",
+  },
+    //신선제품
+  //우유
+  //써니 동원 덴마크 클래식 1L
+  {
+    category: "fresh",
+    subCategory: "milk",
+    name: "동원 덴마크 클래식 1L",
+    brand: "써니",
+    imageUrl: images.milk05,
+    description: images.milkdetail05,
+    categoryKo: '신선식품',
+    categoryDetail: '우유',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#동원 #덴마크클래식",
+  },
+    //신선제품
+  //우유
+  //써니 동원 덴마크 클래식 1L 15팩
+  {
+    category: "fresh",
+    subCategory: "milk",
+    name: "동원 덴마크 클래식 1L 15팩",
+    brand: "써니",
+    imageUrl: images.milk06,
+    description: images.milkdetail06,
+    categoryKo: '신선식품',
+    categoryDetail: '우유',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#동원 #15팩",
+  },
+    //신선제품
+  //우유
+  //써니 매일 어메이징 오트 바리스타 950mL
+  {
+    category: "fresh",
+    subCategory: "milk",
+    name: "매일 어메이징 오트 바리스타 950mL",
+    brand: "써니",
+    imageUrl: images.milk07,
+    description: images.milkdetail07,
+    categoryKo: '신선식품',
+    categoryDetail: '우유',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#매일우유 #오트",
+  }, 
   {
     category: "fresh",
     subCategory: "dairy",
@@ -46,6 +118,240 @@ const freshProducts: Omit<ProductData, "id">[] = [
     new: false,
     newItemBg: images.defaultImage,
     hashtag: "#달콤함 #부드러움",
+  },
+   //신선제품
+  //유제품
+  //써니 덴마크 리코타치즈 1kg 국산원유 100%
+  {
+    category: "fresh",
+    subCategory: "dairy",
+    name: "덴마크 리코타치즈 1kg 국산원유 100%",
+    brand: "써니",
+    imageUrl: images.dairy03,
+    description: images.dairydetail03,
+    categoryKo: '신선식품',
+    categoryDetail: '유제품',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#동원 #리코타치즈",
+  },
+    //신선제품
+  //유제품
+  //써니 덴마크 후레쉬연유 500g
+  {
+    category: "fresh",
+    subCategory: "dairy",
+    name: "덴마크 후레쉬연유 500g",
+    brand: "써니",
+    imageUrl: images.dairy04,
+    description: images.dairydetail04,
+    categoryKo: '신선식품',
+    categoryDetail: '유제품',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#동원 #덴마크연유",
+  },
+    //신선제품
+  //유제품
+  //써니 덴마크 리코타치즈 1kg 국산원유 100%
+  {
+    category: "fresh",
+    subCategory: "dairy",
+    name: "덴마크 리코타치즈 1kg 국산원유 100%",
+    brand: "써니",
+    imageUrl: images.dairy03,
+    description: images.dairydetail03,
+    categoryKo: '신선식품',
+    categoryDetail: '유제품',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#동원 #리코타치즈",
+  },
+    //신선제품
+  //유제품
+  //써니 덴마크 후레쉬연유 500g
+  {
+    category: "fresh",
+    subCategory: "dairy",
+    name: "덴마크 후레쉬연유 500g",
+    brand: "써니",
+    imageUrl: images.dairy04,
+    description: images.dairydetail04,
+    categoryKo: '신선식품',
+    categoryDetail: '유제품',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#동원 #후레쉬연유유",
+  },
+    //신선제품
+  //유제품
+  //써니 동원 소와나무 트리플 슬라이스치즈 1.8kg 100매
+  {
+    category: "fresh",
+    subCategory: "dairy",
+    name: "동원 소와나무 트리플 슬라이스치즈 1.8kg 100매",
+    brand: "써니",
+    imageUrl: images.dairy05,
+    description: images.dairydetail05,
+    categoryKo: '신선식품',
+    categoryDetail: '유제품',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#동원 #슬라이스치즈",
+  },
+    //신선제품
+  //유제품
+  //써니 동원 소와나무 화이트 체다 슬라이스치즈 1.8kg 100매
+  {
+    category: "fresh",
+    subCategory: "dairy",
+    name: "동원 소와나무 화이트 체다 슬라이스치즈 1.8kg 100매",
+    brand: "써니",
+    imageUrl: images.dairy06,
+    description: images.dairydetail06,
+    categoryKo: '신선식품',
+    categoryDetail: '유제품',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#동원 #리코타치즈",
+  },
+    //신선제품
+  //유제품
+  //써니 동원 소와나무 모닝버터 오메가3 450g
+  {
+    category: "fresh",
+    subCategory: "dairy",
+    name: "동원 소와나무 모닝버터 오메가3 450g",
+    brand: "써니",
+    imageUrl: images.dairy07,
+    description: images.dairydetail07,
+    categoryKo: '신선식품',
+    categoryDetail: '유제품',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#동원 #모닝버터",
+  },
+    //신선제품
+  //유제품
+  //써니 매일 스위트연유 파우치 1kg
+  {
+    category: "fresh",
+    subCategory: "dairy",
+    name: "매일 스위트연유 파우치 1kg",
+    brand: "써니",
+    imageUrl: images.dairy08,
+    description: images.dairydetail08,
+    categoryKo: '신선식품',
+    categoryDetail: '유제품',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#매일연유 #파우치",
+  },
+  //신선제품
+  //유제품
+  //써니 매일연유 소프트 500g 가공연유
+  {
+    category: "fresh",
+    subCategory: "dairy",
+    name: "매일연유 소프트 500g 가공연유",
+    brand: "써니",
+    imageUrl: images.dairy09,
+    description: images.defaultImage,
+    categoryKo: '신선식품',
+    categoryDetail: '유제품',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#매일연유 #소프트",
+  },
+  //신선제품
+  //유제품
+  //써니 매일 동물성 휘핑크림 유지방 35%
+  {
+    category: "fresh",
+    subCategory: "dairy",
+    name: "매일 동물성 휘핑크림 유지방 35%",
+    brand: "써니",
+    imageUrl: images.dairy10,
+    description: images.dairydetail10,
+    categoryKo: '신선식품',
+    categoryDetail: '유제품',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#매일 #동물성",
+  },
+  //신선제품
+  //유제품
+  //써니 매일 식물성 휘핑크림 유지방 22%
+  {
+    category: "fresh",
+    subCategory: "dairy",
+    name: "매일 식물성 휘핑크림 유지방 22%",
+    brand: "써니",
+    imageUrl: images.dairy11,
+    description: images.dairydetail11,
+    categoryKo: '신선식품',
+    categoryDetail: '유제품',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#매일 #식물성",
+  },
+  //신선제품
+  //유제품
+  //써니 매일연유 빨강
+  {
+    category: "fresh",
+    subCategory: "dairy",
+    name: "매일연유 빨강",
+    brand: "써니",
+    imageUrl: images.dairy12,
+    description: images.dairydetail12,
+    categoryKo: '신선식품',
+    categoryDetail: '유제품',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#매일연유",
+  },
+  //신선제품
+  //유제품
+  //써니 매일 베이커리 체다 슬라이스치즈 1.8kg
+  {
+    category: "fresh",
+    subCategory: "dairy",
+    name: "매일 베이커리 체다 슬라이스치즈 1.8kg",
+    brand: "써니",
+    imageUrl: images.dairy13,
+    description: images.dairydetail13,
+    categoryKo: '신선식품',
+    categoryDetail: '유제품',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#매일 #체다치즈",
   },
   {
     category: "fresh",

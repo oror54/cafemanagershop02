@@ -159,24 +159,7 @@ export const beanProducts: Omit<ProductData, "id">[] = [
   newItemBg: images.defaultImage,
   hashtag: "#갈설탕 #천혜향 #아몬드",
 },
-// 원두
-//중배전
-// 토브공작소 오손도손블렌드
-{
-  category: "bean",
-  subCategory: "mediumRoast",
-  name: "오손도손블렌드",
-  brand: "토브공작소",
-  imageUrl: images.mediumRoast38,
-  description: images.defaultImage,
-  categoryKo: '원두',
-  categoryDetail: '중배전',
-  url: "",
-  best: true,
-  new: false,
-  newItemBg: images.defaultImage,
-  hashtag: "#초콜릿 #부드러운과일 #밸런스",
-},
+
 // 원두
 //중배전
 // 커피가이 커피가이
@@ -681,24 +664,7 @@ export const beanProducts: Omit<ProductData, "id">[] = [
   newItemBg: images.defaultImage,
   hashtag: "#밀크초콜릿 #바닐라 #미디엄바디",
 },
-// 원두
-//중배전
-// 토브공작소 베이직블렌드원두
-{
-  category: "bean",
-  subCategory: "mediumRoast",
-  name: "베이직블렌드원두",
-  brand: "토브공작소",
-  imageUrl: images.mediumRoast37,
-  description: images.defaultImage,
-  categoryKo: '원두',
-  categoryDetail: '중배전',
-  url: "",
-  best: false,
-  new: false,
-  newItemBg: images.defaultImage,
-  hashtag: "",
-},
+
 // 원두
 //중배전
 // 커피가이 블랙가이
@@ -1097,23 +1063,6 @@ export const beanProducts: Omit<ProductData, "id">[] = [
   newItemBg: images.darkRoastNewBg15,
   hashtag: "#다크초콜릿 #꽃향 #밸런스",
 },
-// 원두
-//강배전
-// 토브공작소 딥브라운블렌드
-{
-  category: "bean",
-  subCategory: "darkRoast",
-  name: "딥브라운블렌드",
-  brand: "토브공작소",
-  imageUrl: images.darkRoast16,
-  description: images.defaultImage,
-  categoryKo: '원두',
-  categoryDetail: '강배전',
-  url: "",
-  best: false,
-  new: false,
-  newItemBg: images.defaultImage,
-  hashtag: "#초콜릿 #곡물 #견과 #과일",
-},
+
 
 ];
