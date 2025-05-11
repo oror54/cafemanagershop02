@@ -3313,5 +3313,23 @@ export const ingredientProducts: Omit<ProductData, "id">[] = [
     newItemBg: images.defaultImage,
     hashtag: "#pomona",
     },
+     //식재료
+  //기타
+  //PH커피재료 초록원 꿀자몽차
+  {
+    category: "ingredient",
+    subCategory: "others",
+    name: "초록원 꿀자몽차 1Kg",
+    brand: "PH커피재료",
+    imageUrl: images.ingredient02,
+    description: images.ingredientDetail02,
+    categoryKo: '식재료',
+    categoryDetail: '기타',
+    url: "",
+    best: false,
+    new: false,
+    newItemBg: images.defaultImage,
+    hashtag: "#초록원",
+    },
     
 ];
