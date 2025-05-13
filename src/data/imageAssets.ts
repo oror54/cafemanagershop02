@@ -57,7 +57,7 @@ import freshothers07 from '$/assets/images/sub/fresh/others/item07_솔룸커피�
 import freshothersDetail07 from '$/assets/images/sub/fresh/others/detail07_솔룸커피로스터스_콜롬비아디카페인골드브루원액.png';
 
 import lightRoast01 from "$/assets/images/sub/beans/weak/item01_미임커피_특별한날.png"
-import lightRoast02 from "$/assets/images/sub/beans/weak/item02_지구커피로스터스_달 블랜드.png"
+import lightRoast02 from "$/assets/images/sub/beans/weak/item02_지구커피로스터스_달블랜드.png"
 
 import mediumRoast01 from "$/assets/images/sub/beans/mid/item01_넥타_과테말라세리스.png"
 import mediumRoast02 from "$/assets/images/sub/beans/mid/item02_넥타_디카페인.png"
@@ -122,7 +122,7 @@ import mediumRoastDetail40 from "$/assets/images/sub/beans/mid/detail40_woodscof
 import mediumRoast41 from "$/assets/images/sub/beans/mid/item41_woodscoffee_피크닉스페셜티블랜드.png"
 import mediumRoastDetail41 from "$/assets/images/sub/beans/mid/detail41_woodscoffee_피크닉스페셜티블랜드.jpeg"
 
-import mediumRoast42 from "$/assets/images/sub/beans/mid/item42_지구커피로스터스_해 블랜드.png"
+import mediumRoast42 from "$/assets/images/sub/beans/mid/item42_지구커피로스터스_해블랜드.png"
 
 
 import darkRoast01 from "$/assets/images/sub/beans/strong/item01_랑케_랑케블랙.png"
@@ -145,11 +145,11 @@ import darkRoast12 from "$/assets/images/sub/beans/strong/item12_전광수커피
 import darkRoastDetail12 from "$/assets/images/sub/beans/strong/detail12_전광수커피_클래식1996.jpg"
 import darkRoast13 from "$/assets/images/sub/beans/strong/item13_전광수커피_클래식골드.png"
 import darkRoastDetail13 from "$/assets/images/sub/beans/strong/detail13_전광수커피_클래식골드.jpg"
-import darkRoast14 from "$/assets/images/sub/beans/strong/item14_청휘와 커피공장_청휘디카페인.png"
-import darkRoastDetail14 from "$/assets/images/sub/beans/strong/detail14_청휘와 커피공장_청휘디카페인.png"
-import darkRoast15 from "$/assets/images/sub/beans/strong/item15_청휘와 커피공장_청휘커피.png"
-import darkRoastDetail15 from "$/assets/images/sub/beans/strong/detail15_청휘와 커피공장_청휘커피.png"
-import darkRoastNewBg15 from "$/assets/images/sub/beans/strong/itemBack15_청휘와 커피공장_청휘커피.png"
+import darkRoast14 from "$/assets/images/sub/beans/strong/item14_청휘와커피공장_청휘디카페인.png"
+import darkRoastDetail14 from "$/assets/images/sub/beans/strong/detail14_청휘와커피공장_청휘디카페인.png"
+import darkRoast15 from "$/assets/images/sub/beans/strong/item15_청휘와커피공장_청휘커피.png"
+import darkRoastDetail15 from "$/assets/images/sub/beans/strong/detail15_청휘와커피공장_청휘커피.png"
+import darkRoastNewBg15 from "$/assets/images/sub/beans/strong/itemBack15_청휘와커피공장_청휘커피.png"
 
 import darkRoast17 from "$/assets/images/sub/beans/strong/item17_woodscoffee_디카페인.png"
 import darkRoastDetail17 from "$/assets/images/sub/beans/strong/detail17_woodscoffee_디카페인.jpeg"
@@ -565,213 +565,213 @@ import ingredientDetail12 from '$/assets/images/sub/ingredients/others/detail12_
 import ingredient13 from '$/assets/images/sub/ingredients/others/item13.png';
 import ingredientDetail13 from '$/assets/images/sub/ingredients/others/detail13_닐슨메시퓨어오렌지익스트랙트오렌지향59ML.jpg';
 import ingredient14 from '$/assets/images/sub/ingredients/others/item14.png';
-import ingredientDetail14 from '$/assets/images/sub/ingredients/others/detail14_닐슨메시_퓨어_바닐라익스트랙트_바닐라향_118mL.jpg';
+import ingredientDetail14 from '$/assets/images/sub/ingredients/others/detail14_닐슨메시퓨어바닐라익스트랙트바닐라향118ML.jpg';
 import ingredient15 from '$/assets/images/sub/ingredients/others/item15.png';
-import ingredientDetail15 from '$/assets/images/sub/ingredients/others/detail15_닐슨메시_로즈워터향_59mL.jpg';
+import ingredientDetail15 from '$/assets/images/sub/ingredients/others/detail15_닐슨메시로즈워터향59ML.jpg';
 import ingredient16 from '$/assets/images/sub/ingredients/others/item16.png';
-import ingredientDetail16 from '$/assets/images/sub/ingredients/others/detail16_로앤오일_바닐라_익스트랙_2oz.jpg';
+import ingredientDetail16 from '$/assets/images/sub/ingredients/others/detail16_로앤오일바닐라익스트랙2OZ.jpg';
 import ingredient17 from '$/assets/images/sub/ingredients/others/item17.png';
-import ingredientDetail17 from '$/assets/images/sub/ingredients/others/detail17_CJ_하얀설탕_백설탕_1kg.jpg';
+import ingredientDetail17 from '$/assets/images/sub/ingredients/others/detail17_CJ하얀설탕백설탕1KG.jpg';
 import ingredient18 from '$/assets/images/sub/ingredients/others/item18.png';
-import ingredientDetail18 from '$/assets/images/sub/ingredients/others/detail18_CJ_하얀설탕_백설탕_3kg.jpg';
+import ingredientDetail18 from '$/assets/images/sub/ingredients/others/detail18_CJ하얀설탕백설탕3KG.jpg';
 import ingredient19 from '$/assets/images/sub/ingredients/others/item19.png';
-import ingredientDetail19 from '$/assets/images/sub/ingredients/others/detail19_CJ_하얀설탕_백설탕_3kgX4개.jpg';
+import ingredientDetail19 from '$/assets/images/sub/ingredients/others/detail19_CJ하얀설탕백설탕3KGX4개.jpg';
 import ingredient20 from '$/assets/images/sub/ingredients/others/item20.png';
-import ingredientDetail20 from '$/assets/images/sub/ingredients/others/detail20_CJ_하얀설탕_백설탕_1kgX16개.jpg';
+import ingredientDetail20 from '$/assets/images/sub/ingredients/others/detail20_CJ하얀설탕백설탕1KGX16개.jpg';
 import ingredient21 from '$/assets/images/sub/ingredients/others/item21.png';
-import ingredientDetail21 from '$/assets/images/sub/ingredients/others/detail21_CJ_흑설탕_1kg.jpg';
+import ingredientDetail21 from '$/assets/images/sub/ingredients/others/detail21_CJ흑설탕1KG.jpg';
 import ingredient22 from '$/assets/images/sub/ingredients/others/item22.png';
-import ingredientDetail22 from '$/assets/images/sub/ingredients/others/detail22_CJ_흑설탕_1kgX16개.jpg';
+import ingredientDetail22 from '$/assets/images/sub/ingredients/others/detail22_CJ흑설탕1KGX16개.jpg';
 import ingredient23 from '$/assets/images/sub/ingredients/others/item23.png';
-import ingredientDetail23 from '$/assets/images/sub/ingredients/others/detail23_CJ_갈색설탕_1KG.jpg';
+import ingredientDetail23 from '$/assets/images/sub/ingredients/others/detail23_CJ갈색설탕1KG.jpg';
 import ingredient24 from '$/assets/images/sub/ingredients/others/item24.png';
-import ingredientDetail24 from '$/assets/images/sub/ingredients/others/detail24_CJ_갈색설탕_3KG.jpg';
+import ingredientDetail24 from '$/assets/images/sub/ingredients/others/detail24_CJ갈색설탕3KG.jpg';
 import ingredient25 from '$/assets/images/sub/ingredients/others/item25.png';
-import ingredientDetail25 from '$/assets/images/sub/ingredients/others/detail25_CJ_갈색설탕_1kg_16개.jpg';
+import ingredientDetail25 from '$/assets/images/sub/ingredients/others/detail25_CJ갈색설탕1KG16개.jpg';
 import ingredient26 from '$/assets/images/sub/ingredients/others/item26.png';
-import ingredientDetail26 from '$/assets/images/sub/ingredients/others/detail26_CJ_갈색설탕_3kg_X_4개.jpg';
+import ingredientDetail26 from '$/assets/images/sub/ingredients/others/detail26_CJ갈색설탕3KGX4개.jpg';
 import ingredient27 from '$/assets/images/sub/ingredients/others/item27.png';
-import ingredientDetail27 from '$/assets/images/sub/ingredients/others/detail27_CJ_밀가루_박력분_2.5_kg.jpg';
+import ingredientDetail27 from '$/assets/images/sub/ingredients/others/detail27_CJ밀가루박력분2.5KG.jpg';
 import ingredient28 from '$/assets/images/sub/ingredients/others/item28.png';
-import ingredientDetail28 from '$/assets/images/sub/ingredients/others/detail28_CJ_밀가루_박력분_2.5kg_X_6개.jpg';
+import ingredientDetail28 from '$/assets/images/sub/ingredients/others/detail28_CJ밀가루박력분2.5KGX6개.jpg';
 import ingredient29 from '$/assets/images/sub/ingredients/others/item29.png';
-import ingredientDetail29 from '$/assets/images/sub/ingredients/others/detail29_CJ_밀가루_강력분_1kg.jpg';
+import ingredientDetail29 from '$/assets/images/sub/ingredients/others/detail29_CJ밀가루강력분1KG.jpg';
 import ingredient30 from '$/assets/images/sub/ingredients/others/item30.png';
-import ingredientDetail30 from '$/assets/images/sub/ingredients/others/detail30_CJ_밀가루_강력분_1kg_X_10개.jpg';
+import ingredientDetail30 from '$/assets/images/sub/ingredients/others/detail30_CJ밀가루강력분1KGX10개.jpg';
 
 
 // 베이킹
 import backing01 from "$/assets/images/sub/subMaterials/baking/item01.png";
-import backingDetail01 from "$/assets/images/sub/subMaterials/baking/detail01_일회용_생크림_베이킹_비닐_짤주머니_18인치_30매_x_2개.jpg";
+import backingDetail01 from "$/assets/images/sub/subMaterials/baking/detail01_일회용생크림베이킹비닐짤주머니18인치30매X2개.jpg";
 import backing02 from "$/assets/images/sub/subMaterials/baking/item02.png";
-import backingDetail02 from "$/assets/images/sub/subMaterials/baking/detail02_꽃모양_무스틀_매화_떡틀_6cm_2_ x_2개.png";
+import backingDetail02 from "$/assets/images/sub/subMaterials/baking/detail02_꽃모양무스틀매화떡틀6cm2X2개.png";
 import backing03 from "$/assets/images/sub/subMaterials/baking/item03.png";
-import backingDetail03 from "$/assets/images/sub/subMaterials/baking/detail03_베이킹팬_베이킹몰드_특대형_마들렌_몰드_4구_2세트.png";
+import backingDetail03 from "$/assets/images/sub/subMaterials/baking/detail03_베이킹팬베이킹몰드특대형마들렌몰드4구2세트.png";
 import backing04 from "$/assets/images/sub/subMaterials/baking/item04.png";
-import backingDetail04 from "$/assets/images/sub/subMaterials/baking/detail04_알루미늄_각봉_30cm_2개.png";
+import backingDetail04 from "$/assets/images/sub/subMaterials/baking/detail04_알루미늄각봉30cm2개.png";
 import backing05 from "$/assets/images/sub/subMaterials/baking/item05.png";
-import backingDetail05 from "$/assets/images/sub/subMaterials/baking/detail05_알루미늄_각봉_50cm_2개.png";
+import backingDetail05 from "$/assets/images/sub/subMaterials/baking/detail05_알루미늄각봉50cm2개.png";
 import backing06 from "$/assets/images/sub/subMaterials/baking/item06.png";
-import backingDetail06 from "$/assets/images/sub/subMaterials/baking/detail06_꽃모양_무스틀_매화_떡틀_6cm_4호_x_2개.png";
+import backingDetail06 from "$/assets/images/sub/subMaterials/baking/detail06_꽃모양무스틀매화떡틀6cm4호X2개.png";
 import backing07 from "$/assets/images/sub/subMaterials/baking/item07.png";
-import backingDetail07 from "$/assets/images/sub/subMaterials/baking/detail07_깊은_마들렌팬_9구_D-type.png";
+import backingDetail07 from "$/assets/images/sub/subMaterials/baking/detail07_깊은마들렌팬9구Dtype.png";
 import backing08 from "$/assets/images/sub/subMaterials/baking/item08.png";
-import backingDetail08 from "$/assets/images/sub/subMaterials/baking/detail08_양면코팅_정사각_미니_큐브빵틀_큐브식빵틀_9cm.png";
+import backingDetail08 from "$/assets/images/sub/subMaterials/baking/detail08_양면코팅정사각미니큐브빵틀큐브식빵틀9cm.png";
 import backing09 from "$/assets/images/sub/subMaterials/baking/item09.png";
-import backingDetail09 from "$/assets/images/sub/subMaterials/baking/detail09_일본_우드핸들_식빵칼_바게트빵칼_빵칼_10인치.png";
+import backingDetail09 from "$/assets/images/sub/subMaterials/baking/detail09_일본우드핸들식빵칼바게트빵칼빵칼10인치.png";
 import backing10 from "$/assets/images/sub/subMaterials/baking/item10.png";
-import backingDetail10 from "$/assets/images/sub/subMaterials/baking/detail10_베이커리시트_테프론시트_2매.png";
+import backingDetail10 from "$/assets/images/sub/subMaterials/baking/detail10_베이커리시트테프론시트2매.png";
 import backing11 from "$/assets/images/sub/subMaterials/baking/item11.png";
-import backingDetail11 from "$/assets/images/sub/subMaterials/baking/detail11_오발틀_타원형_베이킹팬_8구_x_2개.png";
+import backingDetail11 from "$/assets/images/sub/subMaterials/baking/detail11_오발틀타원형베이킹팬8구X2개.png";
 import backing12 from "$/assets/images/sub/subMaterials/baking/item12.png";
-import backingDetail12 from "$/assets/images/sub/subMaterials/baking/detail12_홈베이킹_파운드_유산지_중_100매.png";
+import backingDetail12 from "$/assets/images/sub/subMaterials/baking/detail12_홈베이킹파운드유산지중100매.png";
 import backing13 from "$/assets/images/sub/subMaterials/baking/item13.png";
-import backingDetail13 from "$/assets/images/sub/subMaterials/baking/detail13_미니머핀팬_11구.png";
+import backingDetail13 from "$/assets/images/sub/subMaterials/baking/detail13_미니머핀팬11구.png";
 import backing14 from "$/assets/images/sub/subMaterials/baking/item14.png";
-import backingDetail14 from "$/assets/images/sub/subMaterials/baking/detail14_논스틱_사각_코팅_베이킹_ 식힘망.png";
+import backingDetail14 from "$/assets/images/sub/subMaterials/baking/detail14_논스틱사각코팅베이킹식힘망.png";
 import backing15 from "$/assets/images/sub/subMaterials/baking/item15.png";
-import backingDetail15 from "$/assets/images/sub/subMaterials/baking/detail15_플라스틱_베이킹용_위생밀대_중.png";
+import backingDetail15 from "$/assets/images/sub/subMaterials/baking/detail15_플라스틱베이킹용위생밀대중.png";
 import backing16 from "$/assets/images/sub/subMaterials/baking/item16.png";
-import backingDetail16 from "$/assets/images/sub/subMaterials/baking/detail16_플라스틱_베이킹용_위생밀대_대.png";
+import backingDetail16 from "$/assets/images/sub/subMaterials/baking/detail16_플라스틱베이킹용위생밀대대.png";
 import backing17 from "$/assets/images/sub/subMaterials/baking/item17.png";
-import backingDetail17 from "$/assets/images/sub/subMaterials/baking/detail17_플라스틱_베이킹용_위생밀대_특대.png";
+import backingDetail17 from "$/assets/images/sub/subMaterials/baking/detail17_플라스틱베이킹용위생밀대특대.png";
 import backing18 from "$/assets/images/sub/subMaterials/baking/item18.png";
-import backingDetail18 from "$/assets/images/sub/subMaterials/baking/detail18_플라스틱_베이킹용_위생밀대_소.png";
+import backingDetail18 from "$/assets/images/sub/subMaterials/baking/detail18_플라스틱베이킹용위생밀대소.png";
 import backing19 from "$/assets/images/sub/subMaterials/baking/item19.png";
-import backingDetail19 from "$/assets/images/sub/subMaterials/baking/detail19_대용량_비닐_생크림_베이킹_일회용_짤주머니_18_대_100매.png";
+import backingDetail19 from "$/assets/images/sub/subMaterials/baking/detail19_대용량비닐생크림베이킹일회용짤주머니18대100매.png";
 import backing20 from "$/assets/images/sub/subMaterials/baking/item20.png";
-import backingDetail20 from "$/assets/images/sub/subMaterials/baking/detail20_대용량_비닐_생크림_베이킹_일회용_짤주머니_14_중_100매.png";
+import backingDetail20 from "$/assets/images/sub/subMaterials/baking/detail20_대용량비닐생크림베이킹일회용짤주머니14중100매.png";
 import backing21 from "$/assets/images/sub/subMaterials/baking/item21.png";
-import backingDetail21 from "$/assets/images/sub/subMaterials/baking/detail21_대용량_비닐_생크림_베이킹_일회용_짤주머니_12_소.png";
+import backingDetail21 from "$/assets/images/sub/subMaterials/baking/detail21_대용량비닐생크림베이킹일회용짤주머니12소.png";
 import backing22 from "$/assets/images/sub/subMaterials/baking/item22.png";
-import backingDetail22 from "$/assets/images/sub/subMaterials/baking/detail22_실리콘_베이킹_반죽용_매트_실리콘패드.jpg";
+import backingDetail22 from "$/assets/images/sub/subMaterials/baking/detail22_실리콘베이킹반죽용매트실리콘패드.jpg";
 import backing23 from "$/assets/images/sub/subMaterials/baking/item23.png";
-import backingDetail23 from "$/assets/images/sub/subMaterials/baking/detail23_베이킹_머핀틀_유산지_머핀_유산지_노루지_200매.png";
+import backingDetail23 from "$/assets/images/sub/subMaterials/baking/detail23_베이킹머핀틀유산지머핀유산지노루지200매.png";
 import backing24 from "$/assets/images/sub/subMaterials/baking/item24.png";
-import backingDetail24 from "$/assets/images/sub/subMaterials/baking/detail24_논스틱_양면코팅_미니_마들렌틀_마들렌팬_12구.png";
+import backingDetail24 from "$/assets/images/sub/subMaterials/baking/detail24_논스틱양면코팅미니마들렌틀마들렌팬12구.png";
 import backing25 from "$/assets/images/sub/subMaterials/baking/item25.png";
-import backingDetail25 from "$/assets/images/sub/subMaterials/baking/detail25_논스틱_양면코팅_마들렌틀_마들렌팬_마들렌_6구.png";
+import backingDetail25 from "$/assets/images/sub/subMaterials/baking/detail25_논스틱양면코팅마들렌틀마들렌팬마들렌6구.png";
 import backing26 from "$/assets/images/sub/subMaterials/baking/item26.png";
-import backingDetail26 from "$/assets/images/sub/subMaterials/baking/detail26_양면코팅_휘낭시에_6구_피낭시에틀.png";
+import backingDetail26 from "$/assets/images/sub/subMaterials/baking/detail26_양면코팅휘낭시에6구피낭시에틀.png";
 import backing27 from "$/assets/images/sub/subMaterials/baking/item27.png";
-import backingDetail27 from "$/assets/images/sub/subMaterials/baking/detail27_베이킹_머핀_유산지_크라프트_코팅_머핀컵_100매.png";
+import backingDetail27 from "$/assets/images/sub/subMaterials/baking/detail27_베이킹머핀유산지크라프트코팅머핀컵100매.png";
 import backing28 from "$/assets/images/sub/subMaterials/baking/item28.png";
-import backingDetail28 from "$/assets/images/sub/subMaterials/baking/detail28_베이킹_주방용_알뜰주걱_실리콘_통주걱.png";
+import backingDetail28 from "$/assets/images/sub/subMaterials/baking/detail28_베이킹주방용알뜰주걱실리콘통주걱.png";
 import backing29 from "$/assets/images/sub/subMaterials/baking/item29.png";
-import backingDetail29 from "$/assets/images/sub/subMaterials/baking/detail29_사과씨빼기_과일씨빼기_애플코어러.jpg";
+import backingDetail29 from "$/assets/images/sub/subMaterials/baking/detail29_사과씨빼기과일씨빼기애플코어러.jpg";
 import backing30 from "$/assets/images/sub/subMaterials/baking/item30.png";
-import backingDetail30 from "$/assets/images/sub/subMaterials/baking/detail30_베이킹_주방용_미니_실리콘_주걱.png";
+import backingDetail30 from "$/assets/images/sub/subMaterials/baking/detail30_베이킹주방용미니실리콘주걱.png";
 import backing31 from "$/assets/images/sub/subMaterials/baking/item31.png";
-import backingDetail31 from "$/assets/images/sub/subMaterials/baking/detail31_스테인레스_낮은_타공_타원형_에클레어_무스링_13cm.png";
+import backingDetail31 from "$/assets/images/sub/subMaterials/baking/detail31_스테인레스낮은타공타원형에클레어무스링13cm.png";
 import backing32 from "$/assets/images/sub/subMaterials/baking/item32.png";
-import backingDetail32 from "$/assets/images/sub/subMaterials/baking/detail32_스테인레스_고운망_가루_밀가루_분당채_채반_중.png";
+import backingDetail32 from "$/assets/images/sub/subMaterials/baking/detail32_스테인레스고운망가루밀가루분당채채반중.png";
 import backing33 from "$/assets/images/sub/subMaterials/baking/item33.png";
-import backingDetail33 from "$/assets/images/sub/subMaterials/baking/detail33_스테인레스_고운망_가루_밀가루_분당채_채반_소.png";
+import backingDetail33 from "$/assets/images/sub/subMaterials/baking/detail33_스테인레스고운망가루밀가루분당채채반소.png";
 import backing34 from "$/assets/images/sub/subMaterials/baking/item34.png";
-import backingDetail34 from "$/assets/images/sub/subMaterials/baking/detail34_스테인레스_고운망_가루_밀가루_분당채_채반_대.png";
+import backingDetail34 from "$/assets/images/sub/subMaterials/baking/detail34_스테인레스고운망가루밀가루분당채채반대.png";
 import backing35 from "$/assets/images/sub/subMaterials/baking/item35.png";
-import backingDetail35 from "$/assets/images/sub/subMaterials/baking/detail35_스테인레스_베이킹_생크림_스패츌러_L자.png";
+import backingDetail35 from "$/assets/images/sub/subMaterials/baking/detail35_스테인레스베이킹생크림스패츌러L자.png";
 import backing36 from "$/assets/images/sub/subMaterials/baking/item36.png";
-import backingDetail36 from "$/assets/images/sub/subMaterials/baking/detail36_스테인레스_베이킹_크림_스패츌러_주걱_일자_8_소.png";
+import backingDetail36 from "$/assets/images/sub/subMaterials/baking/detail36_스테인레스베이킹크림스패츌러주걱일자8소.png";
 import backing37 from "$/assets/images/sub/subMaterials/baking/item37.png";
-import backingDetail37 from "$/assets/images/sub/subMaterials/baking/detail37_스테인레스_베이킹_크림_스패츌러_주걱_일자_9_대.png";
+import backingDetail37 from "$/assets/images/sub/subMaterials/baking/detail37_스테인레스베이킹크림스패츌러주걱일자9대.png";
 import backing38 from "$/assets/images/sub/subMaterials/baking/item38.png";
-import backingDetail38 from "$/assets/images/sub/subMaterials/baking/detail38_베이킹_플라스틱_둥근_스크래퍼_반죽칼_알뜰주걱.png";
+import backingDetail38 from "$/assets/images/sub/subMaterials/baking/detail38_베이킹플라스틱둥근스크래퍼반죽칼알뜰주걱.png";
 import backing39 from "$/assets/images/sub/subMaterials/baking/item39.png";
-import backingDetail39 from "$/assets/images/sub/subMaterials/baking/detail39_베이킹_플라스틱_사각스크래퍼_반죽칼_알뜰주걱.png";
+import backingDetail39 from "$/assets/images/sub/subMaterials/baking/detail39_베이킹플라스틱사각스크래퍼반죽칼알뜰주걱.png";
 import backing40 from "$/assets/images/sub/subMaterials/baking/item40.png";
-import backingDetail40 from "$/assets/images/sub/subMaterials/baking/detail40_베이킹_스크래퍼_반죽칼_대.png";
+import backingDetail40 from "$/assets/images/sub/subMaterials/baking/detail40_베이킹스크래퍼반죽칼대.png";
 import backing41 from "$/assets/images/sub/subMaterials/baking/item41.png";
-import backingDetail41 from "$/assets/images/sub/subMaterials/baking/detail41_베이킹_스크래퍼_반죽칼_소.png";
+import backingDetail41 from "$/assets/images/sub/subMaterials/baking/detail41_베이킹스크래퍼반죽칼소.png";
 import backing42 from "$/assets/images/sub/subMaterials/baking/item42.png";
-import backingDetail42 from "$/assets/images/sub/subMaterials/baking/detail42_스테인레스_미니_스패츌러_L자_5.png";
+import backingDetail42 from "$/assets/images/sub/subMaterials/baking/detail42_스테인레스미니스패츌러L자5.png";
 import backing43 from "$/assets/images/sub/subMaterials/baking/item43.png";
-import backingDetail43 from "$/assets/images/sub/subMaterials/baking/detail43_계란분리기_노른자분리기_흰자분리기_스텐계란분리기.png";
+import backingDetail43 from "$/assets/images/sub/subMaterials/baking/detail43_계란분리기노른자분리기흰자분리기스텐계란분리기.png";
 import backing44 from "$/assets/images/sub/subMaterials/baking/item44.png";
-import backingDetail44 from "$/assets/images/sub/subMaterials/baking/detail44_모양깍지_195번_상투과자_상투깍지_쿠키깍지.jpg";
+import backingDetail44 from "$/assets/images/sub/subMaterials/baking/detail44_모양깍지195번상투과자상투깍지쿠키깍지.jpg";
 import backing45 from "$/assets/images/sub/subMaterials/baking/item45.png";
-import backingDetail45 from "$/assets/images/sub/subMaterials/baking/detail45_생크림_별모양_6발_별깍지_171K_모양깍지.jpg";
+import backingDetail45 from "$/assets/images/sub/subMaterials/baking/detail45_생크림별모양6발별깍지171K모양깍지.jpg";
 import backing46 from "$/assets/images/sub/subMaterials/baking/item46.png";
-import backingDetail46 from "$/assets/images/sub/subMaterials/baking/detail46_원형깍지_6번_생크림_글씨_원형_모양깍지_3.6mm.jpg";
+import backingDetail46 from "$/assets/images/sub/subMaterials/baking/detail46_원형깍지6번생크림글씨원형모양깍지36.jpg";
 import backing47 from "$/assets/images/sub/subMaterials/baking/item47.png";
-import backingDetail47 from "$/assets/images/sub/subMaterials/baking/detail47_베이킹_생크림_벗꽃깍지_앙금_모양깍지_129번.jpg";
+import backingDetail47 from "$/assets/images/sub/subMaterials/baking/detail47_베이킹생크림벗꽃깍지앙금모양깍지129번.jpg";
 import backing48 from "$/assets/images/sub/subMaterials/baking/item48.png";
-import backingDetail48 from "$/assets/images/sub/subMaterials/baking/detail48_생크림_드롭플라워_앙금_모양깍지_108번깍지.jpg";
+import backingDetail48 from "$/assets/images/sub/subMaterials/baking/detail48_생크림드롭플라워앙금모양깍지108번깍지.jpg";
 import backing49 from "$/assets/images/sub/subMaterials/baking/item49.png";
-import backingDetail49 from "$/assets/images/sub/subMaterials/baking/detail49_앙금_생크림_플라워깍지_드롭플라워_107번_모양깍지.jpg";
+import backingDetail49 from "$/assets/images/sub/subMaterials/baking/detail49_앙금생크림플라워깍지드롭플라워107번모양깍지.jpg";
 import backing50 from "$/assets/images/sub/subMaterials/baking/item50.png";
-import backingDetail50 from "$/assets/images/sub/subMaterials/baking/detail50_베이킹_생크림_드롭플라워깍지_106번_모양깍지.jpg";
+import backingDetail50 from "$/assets/images/sub/subMaterials/baking/detail50_베이킹생크림드롭플라워깍지106번모양깍지.jpg";
 import backing51 from "$/assets/images/sub/subMaterials/baking/item51.png";
-import backingDetail51 from "$/assets/images/sub/subMaterials/baking/detail51_생크림_모양깍지_베이킹_앙금_꽃잎깍지_62번.jpg";
+import backingDetail51 from "$/assets/images/sub/subMaterials/baking/detail51_생크림모양깍지베이킹앙금꽃잎깍지62번.jpg";
 import backing52 from "$/assets/images/sub/subMaterials/baking/item52.png";
-import backingDetail52 from "$/assets/images/sub/subMaterials/baking/detail52_생크림_데코레이션_케이크_장식_꽃잎_모양깍지_60번.jpg";
+import backingDetail52 from "$/assets/images/sub/subMaterials/baking/detail52_생크림데코레이션케이크장식꽃잎모양깍지60번.jpg";
 import backing53 from "$/assets/images/sub/subMaterials/baking/item53.png";
-import backingDetail53 from "$/assets/images/sub/subMaterials/baking/detail53_생크림_앙금_꽃잎깍지_59번_모양깍지.jpg";
+import backingDetail53 from "$/assets/images/sub/subMaterials/baking/detail53_생크림앙금꽃잎깍지59번모양깍지.jpg";
 import backing54 from "$/assets/images/sub/subMaterials/baking/item54.png";
-import backingDetail54 from "$/assets/images/sub/subMaterials/baking/detail54_생크림_앙금플라워_꽃잎깍지_모양깍지_264번.jpg";
+import backingDetail54 from "$/assets/images/sub/subMaterials/baking/detail54_생크림앙금플라워꽃잎깍지모양깍지264번.jpg";
 import backing55 from "$/assets/images/sub/subMaterials/baking/item55.png";
-import backingDetail55 from "$/assets/images/sub/subMaterials/baking/detail55_생크림_모양깍지_233번_별깍지_앙금깍지.jpg";
+import backingDetail55 from "$/assets/images/sub/subMaterials/baking/detail55_생크림모양깍지233번별깍지앙금깍지.jpg";
 import backing56 from "$/assets/images/sub/subMaterials/baking/item56.png";
-import backingDetail56 from "$/assets/images/sub/subMaterials/baking/detail56_생크림_별모양깍지_앙금_플라워_베이킹_232번 깍지.jpg";
+import backingDetail56 from "$/assets/images/sub/subMaterials/baking/detail56_생크림별모양깍지앙금플라워베이킹232번깍지.jpg";
 import backing57 from "$/assets/images/sub/subMaterials/baking/item57.png";
-import backingDetail57 from "$/assets/images/sub/subMaterials/baking/detail57_생크림_별깍지_앙금_데코레이션_모양깍지_132번.jpg";
+import backingDetail57 from "$/assets/images/sub/subMaterials/baking/detail57_생크림별깍지앙금데코레이션모양깍지132번.jpg";
 import backing58 from "$/assets/images/sub/subMaterials/baking/item58.png";
-import backingDetail58 from "$/assets/images/sub/subMaterials/baking/detail58_생크림_모양깍지_작은_5발_별깍지_23번깍지.jpg";
+import backingDetail58 from "$/assets/images/sub/subMaterials/baking/detail58_생크림모양깍지작은5발별깍지23번깍지.jpg";
 import backing59 from "$/assets/images/sub/subMaterials/baking/item59.png";
-import backingDetail59 from "$/assets/images/sub/subMaterials/baking/detail59_베이킹_생크림_앙금_꽃잎깍지_161번깍지.jpg";
+import backingDetail59 from "$/assets/images/sub/subMaterials/baking/detail59_베이킹생크림앙금꽃잎깍지161번깍지.jpg";
 import backing60 from "$/assets/images/sub/subMaterials/baking/item60.png";
-import backingDetail60 from "$/assets/images/sub/subMaterials/baking/detail60_생크림_앙금깍지_베이킹_꽃잎깍지_150번.jpg";
+import backingDetail60 from "$/assets/images/sub/subMaterials/baking/detail60_생크림앙금깍지베이킹꽃잎깍지150번.jpg";
 import backing61 from "$/assets/images/sub/subMaterials/baking/item61.png";
-import backingDetail61 from "$/assets/images/sub/subMaterials/baking/detail61_생크림_앙금깍지_베이킹_꽃잎깍지_128번_모양깍지.jpg";
+import backingDetail61 from "$/assets/images/sub/subMaterials/baking/detail61_생크림앙금깍지베이킹꽃잎깍지128번모양깍지.jpg";
 import backing62 from "$/assets/images/sub/subMaterials/baking/item62.png";
-import backingDetail62 from "$/assets/images/sub/subMaterials/baking/detail62_생크림_베이킹_꽃잎깍지_127번_모양깍지.jpg";
+import backingDetail62 from "$/assets/images/sub/subMaterials/baking/detail62_생크림베이킹꽃잎깍지127번모양깍지.jpg";
 import backing63 from "$/assets/images/sub/subMaterials/baking/item63.png";
-import backingDetail63 from "$/assets/images/sub/subMaterials/baking/detail63_생크림_모양깍지_꽃잎깍지_122번.jpg";
+import backingDetail63 from "$/assets/images/sub/subMaterials/baking/detail63_생크림모양깍지꽃잎깍지122번.jpg";
 import backing64 from "$/assets/images/sub/subMaterials/baking/item64.png";
-import backingDetail64 from "$/assets/images/sub/subMaterials/baking/detail64_베이킹_앙금깍지_생크림_데코레이션_꽃잎깍지_121번.jpg";
+import backingDetail64 from "$/assets/images/sub/subMaterials/baking/detail64_베이킹앙금깍지생크림데코레이션꽃잎깍지121번.jpg";
 import backing65 from "$/assets/images/sub/subMaterials/baking/item65.png";
-import backingDetail65 from "$/assets/images/sub/subMaterials/baking/detail65_베이킹_생크림_모양깍지_120번_꽃잎_눈썹_깍지.jpg";
+import backingDetail65 from "$/assets/images/sub/subMaterials/baking/detail65_베이킹생크림모양깍지120번꽃잎눈썹깍지.jpg";
 import backing66 from "$/assets/images/sub/subMaterials/baking/item66.png";
-import backingDetail66 from "$/assets/images/sub/subMaterials/baking/detail66_생크림_꽃잎깍지_물결_앙금깍지_118번.jpg";
+import backingDetail66 from "$/assets/images/sub/subMaterials/baking/detail66_생크림꽃잎깍지물결앙금깍지118번.jpg";
 import backing67 from "$/assets/images/sub/subMaterials/baking/item67.png";
-import backingDetail67 from "$/assets/images/sub/subMaterials/baking/detail67_생크림_장미_꽃잎깍지_119번_모양깍지.jpg";
+import backingDetail67 from "$/assets/images/sub/subMaterials/baking/detail67_생크림장미꽃잎깍지119번모양깍지.jpg";
 import backing68 from "$/assets/images/sub/subMaterials/baking/item68.png";
-import backingDetail68 from "$/assets/images/sub/subMaterials/baking/detail68_베이킹_생크림_원형깍지_807번_라지_모양깍지.jpg";
+import backingDetail68 from "$/assets/images/sub/subMaterials/baking/detail68_베이킹생크림원형깍지807번라지모양깍지.jpg";
 import backing69 from "$/assets/images/sub/subMaterials/baking/item69.png";
-import backingDetail69 from "$/assets/images/sub/subMaterials/baking/detail69_베이킹_생크림_원형깍지_803번_라지_모양깍지.jpg";
+import backingDetail69 from "$/assets/images/sub/subMaterials/baking/detail69_베이킹생크림원형깍지803번라지모양깍지.jpg";
 import backing70 from "$/assets/images/sub/subMaterials/baking/item70.png";
-import backingDetail70 from "$/assets/images/sub/subMaterials/baking/detail70_베이킹_생크림_원형깍지_800번_라지_모양깍지.jpg";
+import backingDetail70 from "$/assets/images/sub/subMaterials/baking/detail70_베이킹생크림원형깍지800번라지모양깍지.jpg";
 import backing71 from "$/assets/images/sub/subMaterials/baking/item71.png";
-import backingDetail71 from "$/assets/images/sub/subMaterials/baking/detail71_생크림_원형깍지_베이킹_마카롱깍지_1A번깍지.jpg";
+import backingDetail71 from "$/assets/images/sub/subMaterials/baking/detail71_생크림원형깍지베이킹마카롱깍지1A번깍지.jpg";
 import backing72 from "$/assets/images/sub/subMaterials/baking/item72.png";
-import backingDetail72 from "$/assets/images/sub/subMaterials/baking/detail72_생크림깍지_타원형_모양깍지_58번깍지.jpg";
+import backingDetail72 from "$/assets/images/sub/subMaterials/baking/detail72_생크림깍지타원형모양깍지58번깍지.jpg";
 import backing73 from "$/assets/images/sub/subMaterials/baking/item73.png";
-import backingDetail73 from "$/assets/images/sub/subMaterials/baking/detail73_생크림_장식_레터링_글씨용_원형_모양깍지_0번.jpg";
+import backingDetail73 from "$/assets/images/sub/subMaterials/baking/detail73_생크림장식원형모양깍지0번.jpg";
 
 
 // 일회용품
 import disposable01 from "$/assets/images/sub/subMaterials/disposable/item01.png";
-import disposableDetail01 from "$/assets/images/sub/subMaterials/disposable/detail01_OPP_비닐봉투_쿠키봉투_13x13_50장x5개.png";
+import disposableDetail01 from "$/assets/images/sub/subMaterials/disposable/detail01_OPP비닐봉투쿠키봉투13X1350장X5개.png";
 import disposable02 from "$/assets/images/sub/subMaterials/disposable/item02.png";
-import disposableDetail02 from "$/assets/images/sub/subMaterials/disposable/detail02_OPP_비닐봉투_쿠키봉투_15x18_50장x3개.png";
+import disposableDetail02 from "$/assets/images/sub/subMaterials/disposable/detail02_OPP비닐봉투쿠키봉투15X1850장X3개.png";
 import disposable03 from "$/assets/images/sub/subMaterials/disposable/item03.png";
-import disposableDetail03 from "$/assets/images/sub/subMaterials/disposable/detail03_OPP_비닐봉투_쿠키봉투_8x8_300장.png";
+import disposableDetail03 from "$/assets/images/sub/subMaterials/disposable/detail03_OPP비닐봉투쿠키봉투8X8300장.png";
 import disposable04 from "$/assets/images/sub/subMaterials/disposable/item04.png";
-import disposableDetail04 from "$/assets/images/sub/subMaterials/disposable/detail04_OPP_비닐봉투_쿠키봉투_9x10_300장.png";
+import disposableDetail04 from "$/assets/images/sub/subMaterials/disposable/detail04_OPP비닐봉투쿠키봉투9X10300장.png";
 import disposable05 from "$/assets/images/sub/subMaterials/disposable/item05.png";
-import disposableDetail05 from "$/assets/images/sub/subMaterials/disposable/detail05_테이블냅킨_프레시원_90매_60속_BOX.jpg";
+import disposableDetail05 from "$/assets/images/sub/subMaterials/disposable/detail05_테이블냅킨프레시원90매60속BOX.jpg";
 import disposable06 from "$/assets/images/sub/subMaterials/disposable/item06.png";
-import disposableDetail06 from "$/assets/images/sub/subMaterials/disposable/detail06_키친타올_150매x2롤_프레시원.jpg";
+import disposableDetail06 from "$/assets/images/sub/subMaterials/disposable/detail06_키친타올150매X2롤프레시원.jpg";
 import disposable07 from "$/assets/images/sub/subMaterials/disposable/item07.png";
-import disposableDetail07 from "$/assets/images/sub/subMaterials/disposable/detail07_위생장갑_프레시원_50매입.jpg";
+import disposableDetail07 from "$/assets/images/sub/subMaterials/disposable/detail07_위생장갑프레시원50매입.jpg";
 import disposable08 from "$/assets/images/sub/subMaterials/disposable/item08.png";
-import disposableDetail08 from "$/assets/images/sub/subMaterials/disposable/detail08_롤백_미니_17x25cm_이츠웰_200입.jpg";
+import disposableDetail08 from "$/assets/images/sub/subMaterials/disposable/detail08_롤백미니17X25CM이츠웰200입.jpg";
 import disposable09 from "$/assets/images/sub/subMaterials/disposable/item09.png";
-import disposableDetail09 from "$/assets/images/sub/subMaterials/disposable/detail09_위생백_대_30x45cm_이츠웰_100입.jpg";
+import disposableDetail09 from "$/assets/images/sub/subMaterials/disposable/detail09_위생백대30X45CM이츠웰100입.jpg";
 import disposable10 from "$/assets/images/sub/subMaterials/disposable/item10.png";
-import disposableDetail10 from "$/assets/images/sub/subMaterials/disposable/detail10_쿠킹호일_이츠웰_25cmx15m.jpg";
+import disposableDetail10 from "$/assets/images/sub/subMaterials/disposable/detail10_쿠킹호일이츠웰25CMX15M.jpg";
 import disposable11 from "$/assets/images/sub/subMaterials/disposable/item11.png";
-import disposableDetail11 from "$/assets/images/sub/subMaterials/disposable/detail11_위생장갑_프레시원_200매입.jpg";
+import disposableDetail11 from "$/assets/images/sub/subMaterials/disposable/detail11_위생장갑프레시원200매입.jpg";
 
 
 import subMaterial01 from "$/assets/images/sub/subMaterials/other/item01_이해랩_버클에이프런브라운.png"
