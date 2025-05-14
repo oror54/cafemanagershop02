@@ -3391,11 +3391,11 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //써니 포모나 휘핑스프레이 500g 가당 휘핑생크림
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: '포모나 휘핑 스프레이 500g 가당 휘핑생크림',
     brand: '써니',
-    imageUrl: images.defaultImage,
-    description: images.defaultImage,
+    imageUrl: images.ingredient01,
+    description: images.ingredientDetail01,
     categoryKo: '식재료',
     categoryDetail: '기타',
     url: '',
@@ -3410,7 +3410,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //PH커피재료 초록원 꿀자몽차
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: '초록원 꿀자몽차 1Kg',
     brand: 'PH커피재료',
     imageUrl: images.ingredient02,
@@ -3428,7 +3428,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //꽃샘_자몽차_S_2kg_1kgx2병
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: '꽃샘 자몽차S 2kg 1kgx2병',
     brand: 'PH커피재료',
     imageUrl: images.ingredient03,
@@ -3446,7 +3446,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //초록원_꿀자몽차_2kg_1kgx2병
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: '초록원 꿀자몽차 2kg 1kgx2병',
     brand: 'PH커피재료',
     imageUrl: images.ingredient04,
@@ -3464,7 +3464,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //꽃샘_사양벌꿀_2kg
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: '꽃샘 사양벌꿀 2kg',
     brand: 'PH커피재료',
     imageUrl: images.ingredient05,
@@ -3482,7 +3482,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //쌍계_사양벌꿀_2kg
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: '쌍계 사양벌꿀 2kg',
     brand: 'PH커피재료',
     imageUrl: images.ingredient06,
@@ -3500,7 +3500,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //쌍계_사양벌꿀_1kg
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: '쌍계_사양벌꿀_1kg',
     brand: 'PH커피재료',
     imageUrl: images.ingredient07,
@@ -3518,7 +3518,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //꽃샘_꿀한라봉차_2kg_1KGx2병
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: '꽃샘_꿀한라봉차2kg  1KGx2병',
     brand: 'PH커피재료',
     imageUrl: images.ingredient08,
@@ -3536,7 +3536,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //초록원_딸기잼_2kg_1KGx2병
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: '초록원 딸기잼 2kg  1KGx2병',
     brand: 'PH커피재료',
     imageUrl: images.ingredient09,
@@ -3554,7 +3554,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //바삭_백세편강_국내산_200g_생강편
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: '바삭 백세편강 국내산 200g 생강편',
     brand: 'PH커피재료',
     imageUrl: images.ingredient10,
@@ -3572,7 +3572,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //유기농아가베시럽_멕시코_660g_자연시럽_선인장
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: '유기농아가베시럽 멕시코 660g 자연시럽 선인장',
     brand: 'PH커피재료',
     imageUrl: images.ingredient11,
@@ -3590,7 +3590,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //로앤오일_바닐라_익스트랙_16oz_대용량
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: '로앤오일 바닐라 익스트랙 16oz 대용량',
     brand: 'PH커피재료',
     imageUrl: images.ingredient12,
@@ -3608,7 +3608,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //닐슨메시 퓨어_오렌지익스트랙트_오렌지향_59ml
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: '닐슨메시 퓨어 오렌지익스트랙트 오렌지향 59ml',
     brand: 'PH커피재료',
     imageUrl: images.ingredient13,
@@ -3626,7 +3626,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //닐슨메시_퓨어_바닐라익스트랙트_바닐라향_118mL
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: '닐슨메시 퓨어 바닐라익스트랙트 바닐라향_118mL',
     brand: 'PH커피재료',
     imageUrl: images.ingredient14,
@@ -3644,7 +3644,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //닐슨메시_로즈워터향_59mL
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: '닐슨메시 로즈워터향 59mL',
     brand: 'PH커피재료',
     imageUrl: images.ingredient15,
@@ -3662,7 +3662,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //로앤오일_바닐라_익스트랙_2oz
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: '로앤오일 바닐라 익스트랙 2oz',
     brand: 'PH커피재료',
     imageUrl: images.ingredient16,
@@ -3680,7 +3680,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //CJ_하얀설탕_백설탕_1kg
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: 'CJ 하얀설탕 백설탕 1kg',
     brand: 'PH커피재료',
     imageUrl: images.ingredient17,
@@ -3698,7 +3698,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //CJ_하얀설탕_백설탕_3kg
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: 'CJ 하얀설탕 백설탕 3kg',
     brand: 'PH커피재료',
     imageUrl: images.ingredient18,
@@ -3716,7 +3716,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //CJ_하얀설탕_백설탕_3kgX4개
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: 'CJ 하얀설탕 백설탕 3kgX4개',
     brand: 'PH커피재료',
     imageUrl: images.ingredient19,
@@ -3734,7 +3734,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //CJ_하얀설탕_백설탕_1kgX16개
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: 'CJ 하얀설탕 백설탕 1kgX16개',
     brand: 'PH커피재료',
     imageUrl: images.ingredient20,
@@ -3752,7 +3752,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //CJ_흑설탕_1kg
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: 'CJ 흑설탕 1kg',
     brand: 'PH커피재료',
     imageUrl: images.ingredient21,
@@ -3770,7 +3770,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //CJ_흑설탕_1kgX16개
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: 'CJ 흑설탕 1kg X 16개',
     brand: 'PH커피재료',
     imageUrl: images.ingredient22,
@@ -3788,7 +3788,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //CJ_갈색설탕_1KG
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: 'CJ 갈색설탕 1KG',
     brand: 'PH커피재료',
     imageUrl: images.ingredient23,
@@ -3806,7 +3806,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //CJ_갈색설탕_3KG
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: 'CJ 갈색설탕 3KG',
     brand: 'PH커피재료',
     imageUrl: images.ingredient24,
@@ -3824,7 +3824,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //CJ_갈색설탕_1kg_16개
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: 'CJ_갈색설탕_1kg_16개',
     brand: 'PH커피재료',
     imageUrl: images.ingredient25,
@@ -3842,7 +3842,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //CJ_갈색설탕_3kg_X_4개
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: 'CJ_갈색설탕_3kg_X_4개',
     brand: 'PH커피재료',
     imageUrl: images.ingredient26,
@@ -3860,7 +3860,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //CJ_밀가루_박력분_2.5_kg
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: 'CJ 밀가루 박력분 2.5 kg',
     brand: 'PH커피재료',
     imageUrl: images.ingredient27,
@@ -3878,7 +3878,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //CJ_밀가루_박력분_2.5kg_X_6개
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: 'CJ 밀가루 박력분 2.5kg X 6개',
     brand: 'PH커피재료',
     imageUrl: images.ingredient28,
@@ -3896,7 +3896,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //CJ_밀가루_강력분_1kg
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: 'CJ 밀가루 강력분 1kg',
     brand: 'PH커피재료',
     imageUrl: images.ingredient29,
@@ -3914,7 +3914,7 @@ export const ingredientProducts: Omit<ProductData, 'id'>[] = [
   //CJ_밀가루_강력분_1kg_X_10개
   {
     category: 'ingredient',
-    subCategory: 'others',
+    subCategory: 'other',
     name: 'CJ 밀가루 강력분 1kg X 10개',
     brand: 'PH커피재료',
     imageUrl: images.ingredient30,
